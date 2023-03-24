@@ -29,33 +29,14 @@ Two Alberta inventory datasets were utilized to obtain tree species distribution
 
 The ABMI is a long-term monitoring program that tracks biodiversity in Alberta. ABMI maintains 1656 permanent samples sites spaced evenly across a systematic 20-km grid, at each sample site ground surveys are conducted every five years. These permanent sample sites are supported by the mapping and analysis of 3 km (north to south) by 7 km (east to west) photo-plots surrounding each site. Through interpretation each ABMI photo-plot is delineated into homogeneous polygons, which are supplemented with attribute information. For treed polygons attribute information on management status, stand structure, year of origin, canopy density class, height, species composition and abundance, understory characteristics and disturbances are available.
 
-```{r, fig.width=5}
-library(lidR)
-ctg <- readLAScatalog("data/ctg2",  filter = "-drop_withheld -keep_random_fraction 0.25")
-plot(ctg)
-```
-
 ### 2.1.2 British Columbia Forest Inventory {#sec-bc-forest-inventory-datasets}
 
 Tree species distribution data for British Columbia was sourced from the current vegetation resource inventory (VRI). The VRI is a photo-based, two step vegetation inventory program that consists of manually delineating homogeneous forest stands via photo interpretation followed by a ground sampling stage. Through interpretation, a range of forest attribute information is available for each delineated polygons this includes species composition (up to six species recorded for each stand), height, canopy closure, age, volume, basal area and stem density.
 
-```{r, message=FALSE, fig.width=5}
-library(raster)
-dtm <- raster("E:/data/05_data_load/DTM_new.tif")
-plot(ctg)
-plot(dtm, col = gray(1:50/50), add = T)
-```
 
 ### 2.1.3 Yukon Forest Inventory {#sec-yukon-forest-inventory-datasets}
 
 The Yukon has two available vegetation inventory data sets. One vegetation inventory dataset is available at a 1:5,000 scale for 'operation level' use has limited coverage over the Haines Junction and south-central regions of the Yukon. The other vegetation inventory is available at a 1:40,000 scale for 'management level' use and has an areal extent that covers a majority of the territory. Both datasets are inventory-based programs centred around aerial photo interpretation to divide the land into homogenous units. To supplement the aerial photo interpretation secondary sources such as ground samples, air/ground calls, regeneration surveys, and permanent sample plot measurements, are included. Within each polygon, detailed forest attributes on species composition, stand height, crown closure and stand age are available.
-
-```{r, fig.width=5}
-library(sf)
-roads <- st_read("E:/data/05_data_load/roads.shp", quiet = TRUE)
-plot(ctg)
-plot(st_geometry(roads), add = T)
-```
 
 ## 2.2 Targeted Forest Data Sets {#sec-targeted-forest-dataset}
 
