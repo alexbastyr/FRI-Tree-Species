@@ -1,0 +1,35 @@
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(rgl)
+
+r3dDefaults = rgl::r3dDefaults
+m = structure(c(0.921, -0.146, 0.362, 0, 0.386, 0.482, -0.787, 0, 
+-0.06, 0.864, 0.5, 0, 0, 0, 0, 1), .Dim = c(4L, 4L))
+r3dDefaults$FOV = 50
+r3dDefaults$userMatrix = m
+r3dDefaults$zoom = 0.75
+
+knitr::opts_chunk$set(
+  comment =  "#>", 
+  collapse = TRUE,
+  fig.align = "center")
+
+rgl::setupKnitr(autoprint = TRUE)
+```
+
+# Discussion {#sec-discussion}
+
+## 5.1 Predictor Variables {#sec-predictor-variables}
+
+In this research, we utilized a methodology, as reported in @hermosilla2022, to map 15 tree species and species groups across the province and territories of Alberta, British Columbia and the Yukon. The suite of predictor variables, similar to those used in @hermosilla2022, was expanded from 25 to 31, with the addition of more phenological metrics. In agreement with @hermosilla2022 the most important predictor variables informed on climatic, geographic and topographic conditions. The importance of climatic variables in mapping tree species has been shown in previous studies to be determined by the spatial extent of the study area of interest [@fassnacht2016]. Large area extents, provide more opportunity for variations in climate, resulting in the increased predictive importance of climatic variables [@zimmermann2007]. In contrast, small spatial extents, typically present limited variation in climate and thus lower the predictive importance of climatic variables [@engler2013]. Elevation, similar to climatic variables, predictive importance is also dependent on spatial extent [@fassnacht2016]. Geographic coordinates in previous studies have been shown to be useful in forests which present strong gradients in the growing season (i.e. temperate and boreal forests) [@breidenbach2020]. Expanding on the work of @hermosilla2022, the utility of additional phenological variables in mapping tree species was explored. The phenological metrics had considerably low overall importance in our research. The lack of importance of these phenological metrics is attributed to the fact that a majority of the tree species and species group of interest were coniferous. Whereas phenological timing metrics have demonstrated more utility in mapping deciduous tree species [@pasquarella2018; @kollert2021] as it captures more pronounced physical and spectral properties displayed during green-up and senescence.
+
+## 5.2 Accuracy {#sec-accuracy}
+
+The overall accuracy of the resultant 30-m leading tree species classified map of 76.6% is consistent with other tree species classification studies completed with medium resolution satellite imagery [@grabska2019; @hemmerling2021; @hoscilo2019]. In comparison to @hermosilla2022 which had an overall accuracy of 93.1%, the decreased accuracy in our research is attributed to the usage of broad general classes that represented a variety of tree species and the inclusion of rare tree species classes. General classes, such as the other conifer and other deciduous classes, by their inherent nature of encompassing a mix of tree species introduce confusion and are subject to misclassification. The rare tree species classes of limber pine, whitebark pine and willow experience lower accuracies due to their small training datasets and standard class imbalance [@javaheri2014] failing to provide a distinct species to spectral reflectance link. Whitebark pine was estimated to cover a total area of roughly 68,000 ha in this research, this area is attributed to whitebark pine being a foundational species of high elevation ecosystems and being over estimated in these alpine regions. In addition to these factors, in @hermosilla2022, the overall accuracy was carried by the predominance of black spruce across Canada's boreal forest, with Black Spruce accounting for roughly 57% of the total area mapped. In comparison, the most dominant tree species and/or species group mapped in our research was Poplar (POPU.SPP), which accounted for only 20% of the total area mapped (20.3 Mha).
+
+## 5.3 Caribou Analysis {#sec-caribou-analysis}
+
+The caribou analysis presented in this research, represents an approach that allows for the distribution of varying forest habitat in key caribou ranges to be quantified. In total, the overall configuration and composition of the forested area within 99 caribou ranges across Alberta, British Columbia and the Yukon was explored. For completeness, it is noteworthy to highlight that the ranges of 3 herds in British Columbia (Edziza, Spatsizi, and Telkwa) and 6 herds in the Yukon (Bonnet Plume, Chisana, Fortymile, Nelchina, Porcupine and Redstone) are not entirely encompassed within our study area of interest and thus results for these herds are not completely representative. Habitat selection, is predominately seen as a hierarchical process wherein cover type is a main contributing factor to caribou habitat selection [@hins2009; @mcloughlin2005; @rettie2000; @wittmer2007]. Therefore, the ability to examine the habitat of individual herd ranges of caribou, may serve as supporting information in the establishment of conservation measures adapted to herd behaviours [@hins2009; @obrien2006]. Although simplistic in nature, this analysis demonstrates the utility of the tree species map to be utilized as a base layer to incorporate into a variety of ecological research questions in order to gain further understanding.
+
+# 6 Acknowledgements {#sec-acknowledgements}
+
+The authors thank Jodie Krakowski for sharing the targeted five-needle pine dataset used in this research. We are grateful to Michael Burnett for this assistance in processing the climate data from ClimateNA, Txomin Hermosilla for his data processing advice, and Evan Muise for his expertise and assistance using the NTEMs dataset.

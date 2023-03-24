@@ -1,0 +1,1811 @@
+---
+references:
+- id: bleiker2019
+  author:
+  - family: Bleiker
+    given: Katherine Patricia
+  - family: Boisvenue
+    given: Celine
+  - family: Campbell
+    given: Elizabeth
+  - family: Cooke
+    given: Barry J.
+  - family: Erbilgin
+    given: Nadir
+  - family: Friberg
+    given: R. F.
+  - family: Lewis
+    given: K. J.
+  - family: Stennes
+    given: Bradley
+  - family: Stockdale
+    given: Chris
+  - family: Whitehouse
+    given: C. M.
+  ISBN: 0-660-30744-8
+  issued: 2019
+  key: T5WU2HAI
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Risk assessment of the threat of mountain pine beetle to
+    Canada's boreal and eastern pine forests.
+  type: book
+- id: baldwin2019
+  author:
+  - family: Baldwin
+    given: Kenneth A.
+  - family: Chapman
+    given: K.
+  - family: Meidinger
+    given: D.
+  - family: Uhlig
+    given: P.
+  - family: Allen
+    given: L.
+  - family: Basquill
+    given: S.
+  - family: Faber-Langendoen
+    given: D.
+  - family: Flynn
+    given: N.
+  - family: Kennedy
+    given: C.
+  - family: Mackenzie
+    given: W.
+  ISBN: 0-660-32174-2
+  issued: 2019
+  key: SLPX74U3
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Natural Resources Canada, Canadian Forest Service, Great
+    Lakes Forestry Centre
+  title: "The Canadian national vegetation classification: principles,
+    methods and status"
+  type: book
+- id: white2014
+  author:
+  - family: White
+    given: J. C.
+  - family: Wulder
+    given: M. A.
+  - family: Hobart
+    given: G. W.
+  - family: Luther
+    given: J. E.
+  - family: Hermosilla
+    given: T.
+  - family: Griffiths
+    given: P.
+  - family: Coops
+    given: N. C.
+  - family: Hall
+    given: R. J.
+  - family: Hostert
+    given: P.
+  - family: Dyk
+    given: A.
+  - family: Guindon
+    given: L.
+  container-title: Canadian Journal of Remote Sensing
+  DOI: 10.1080/07038992.2014.945827
+  ISSN: 0703-8992
+  issue: 3
+  issued: 2014-05
+  key: G3LUSZAY
+  libraryID: 1
+  page: 192-212
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Taylor
+  title: Pixel-Based Image Compositing for Large-Area Dense Time Series
+    Applications and Science
+  type: article-journal
+  URL: "https://doi.org/10.1080/07038992.2014.945827"
+  volume: 40
+- id: hermosilla2016
+  author:
+  - family: Hermosilla
+    given: Txomin
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Coops
+    given: Nicholas C.
+  - family: Hobart
+    given: Geordie W.
+  - family: Campbell
+    given: Lorraine B.
+  container-title: International Journal of Digital Earth
+  DOI: 10.1080/17538947.2016.1187673
+  ISSN: 1753-8947
+  issue: 11
+  issued: 2016-11
+  key: K6R3PI9U
+  libraryID: 1
+  page: 1035-1054
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Taylor
+  title: "Mass data processing of time series Landsat imagery: pixels to
+    data products for forest monitoring"
+  type: article-journal
+  URL: "https://doi.org/10.1080/17538947.2016.1187673"
+  volume: 9
+- id: abrams2020
+  author:
+  - family: Abrams
+    given: Michael
+  - family: Crippen
+    given: Robert
+  - family: Fujisada
+    given: Hiroyuki
+  container-title: Remote Sensing
+  DOI: 10.3390/rs12071156
+  ISSN: 2072-4292
+  issue: 7
+  issued: 2020
+  key: WDWNU7J9
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: ASTER Global Digital Elevation Model (GDEM) and ASTER Global
+    Water Body Dataset (ASTWBD)
+  type: article-journal
+  URL: "https://www.mdpi.com/2072-4292/12/7/1156"
+  volume: 12
+- id: baldwin2019a
+  author:
+  - family: Baldwin
+    given: Kenneth A.
+  - family: Chapman
+    given: K.
+  - family: Meidinger
+    given: D.
+  - family: Uhlig
+    given: P.
+  - family: Allen
+    given: L.
+  - family: Basquill
+    given: S.
+  - family: Faber-Langendoen
+    given: D.
+  - family: Flynn
+    given: N.
+  - family: Kennedy
+    given: C.
+  - family: Mackenzie
+    given: W.
+  ISBN: 0-660-32174-2
+  issued: 2019
+  key: SLPX74U3
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Natural Resources Canada, Canadian Forest Service, Great
+    Lakes Forestry Centre
+  title: "The Canadian national vegetation classification: principles,
+    methods and status"
+  type: book
+- id: hermosilla2015b
+  author:
+  - family: Hermosilla
+    given: Txomin
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Coops
+    given: Nicholas C.
+  - family: Hobart
+    given: Geordie W.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2015.09.004"
+  ISSN: 0034-4257
+  issued: 2015
+  key: Y6R9N9AX
+  libraryID: 1
+  page: 121-132
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Regional detection, characterization, and attribution of annual
+    forest change from 1984 to 2012 using Landsat-derived time-series
+    metrics
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425715301279"
+  volume: 170
+- id: masek2006
+  author:
+  - family: Masek
+    given: J. G.
+  - family: Vermote
+    given: E. F.
+  - family: Saleous
+    given: N. E.
+  - family: Wolfe
+    given: R.
+  - family: Hall
+    given: F. G.
+  - family: Huemmrich
+    given: K. F.
+  - family: Gao
+    given: Feng
+  - family: Kutler
+    given: J.
+  - family: Lim
+    given: Teng-Kui
+  container-title: IEEE Geoscience and Remote Sensing Letters
+  DOI: 10.1109/LGRS.2005.857030
+  ISSN: 1558-0571
+  issue: 1
+  issued: 2006
+  key: ZSXZR4X9
+  libraryID: 1
+  page: 68-72
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: A Landsat surface reflectance dataset for North America,
+    1990-2000
+  type: article-journal
+  volume: 3
+- id: schmidt2013
+  author:
+  - family: Schmidt
+    given: Gail L.
+  - family: Jenkerson
+    given: Calli
+  - family: Masek
+    given: Jeffrey G.
+  - family: Vermote
+    given: Eric
+  - family: Gao
+    given: Feng
+  container-title: US Department of the Interior, US Geological Survey
+  issued: 2013
+  key: DW7KRK8T
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Landsat ecosystem disturbance adaptive processing system
+    (LEDAPS) algorithm description
+  type: article-journal
+- id: kennedy2010
+  author:
+  - family: Kennedy
+    given: Robert E.
+  - family: Yang
+    given: Zhiqiang
+  - family: Cohen
+    given: Warren B.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2010.07.008"
+  ISSN: 0034-4257
+  issue: 12
+  issued: 2010
+  key: RGGHNGTY
+  libraryID: 1
+  page: 2897-2910
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "Detecting trends in forest disturbance and recovery using
+    yearly Landsat time series: 1. LandTrendr --- Temporal segmentation
+    algorithms"
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425710002245"
+  volume: 114
+- id: hermosilla2015
+  author:
+  - family: Hermosilla
+    given: Txomin
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Coops
+    given: Nicholas C.
+  - family: Hobart
+    given: Geordie W.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2014.11.005"
+  ISSN: 0034-4257
+  issued: 2015
+  key: JW6H3RWT
+  libraryID: 1
+  page: 220-234
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: An integrated Landsat time series protocol for change detection
+    and generation of annual gap-free surface reflectance composites
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425714004453"
+  volume: 158
+- id: keogh2001
+  author:
+  - family: Keogh
+    given: Eamonn
+  - family: Chu
+    given: Selina
+  - family: Hart
+    given: David
+  - family: Pazzani
+    given: Michael
+  container-title: Proceedings 2001 IEEE international conference on
+    data mining
+  ISBN: 0-7695-1119-8
+  issued: 2001
+  key: V6NQVCI3
+  libraryID: 1
+  page: 289-296
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: IEEE
+  title: An online algorithm for segmenting time series
+  type: paper-conference
+- id: key2006
+  author:
+  - family: Key
+    given: Carl H.
+  - family: Benson
+    given: Nathan C.
+  container-title: USDA 963 Forest Service Gen. Tech. Rep.
+    RMRS-GTR-164-CD. Routledge.
+  issued: 2006
+  key: B4R58D47
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "Landscape assessment (LA): Sampling and Analysis Methods"
+  type: article-journal
+- id: matasci2018a
+  author:
+  - family: Matasci
+    given: Giona
+  - family: Hermosilla
+    given: Txomin
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Coops
+    given: Nicholas C.
+  - family: Hobart
+    given: Geordie W.
+  - family: Zald
+    given: Harold S. J.
+  container-title: Remote sensing of environment
+  ISSN: 0034-4257
+  issued: 2018
+  key: JCH6F5CJ
+  libraryID: 1
+  page: 90-106
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: Large-area mapping of Canadian boreal forest cover, height,
+    biomass and other structural attributes using Landsat composites and
+    lidar plots
+  type: article-journal
+  volume: 209
+- id: matasci2018b
+  author:
+  - family: Matasci
+    given: Giona
+  - family: Hermosilla
+    given: Txomin
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Coops
+    given: Nicholas C.
+  - family: Hobart
+    given: Geordie W.
+  - family: Bolton
+    given: Douglas K.
+  - family: Tompalski
+    given: Piotr
+  - family: Bater
+    given: Christopher W.
+  container-title: Remote Sensing of Environment
+  ISSN: 0034-4257
+  issued: 2018
+  key: Y8RHNKSH
+  libraryID: 1
+  page: 697-714
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: Three decades of forest structural dynamics over Canada's
+    forested ecosystems using Landsat time-series and lidar plots
+  type: article-journal
+  volume: 216
+- id: crookston2008
+  author:
+  - family: Crookston
+    given: Nicholas L.
+  - family: Finley
+    given: Andrew O.
+  container-title: Journal of Statistical Software
+  ISSN: 1548-7660
+  issued: 2008
+  key: YCEGD3AL
+  libraryID: 1
+  page: 1-16
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "yaImpute: an R package for kNN imputation"
+  type: article-journal
+  volume: 23
+- id: wang2016
+  author:
+  - family: Wang
+    given: Tongli
+  - family: Hamann
+    given: Andreas
+  - family: Spittlehouse
+    given: Dave
+  - family: Carroll
+    given: Carlos
+  container-title: PLOS ONE
+  issue: 6
+  issued: 2016-06
+  key: VRKCAJED
+  libraryID: 1
+  page: e0156720-
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Public
+  title: Locally Downscaled and Spatially Customizable Climate Data for
+    Historical and Future Periods for North America
+  type: article-journal
+  URL: "https://doi.org/10.1371/journal.pone.0156720"
+  volume: 11
+- id: bolton2020
+  author:
+  - family: Bolton
+    given: Douglas K.
+  - family: Gray
+    given: Josh M.
+  - family: Melaas
+    given: Eli K.
+  - family: Moon
+    given: Minkyu
+  - family: Eklundh
+    given: Lars
+  - family: Friedl
+    given: Mark A.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2020.111685"
+  ISSN: 0034-4257
+  issued: 2020
+  key: G6ME3G74
+  libraryID: 1
+  page: 111685
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Continental-scale land surface phenology from harmonized
+    Landsat 8 and Sentinel-2 imagery
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425720300547"
+  volume: 240
+- id: gesch2016
+  author:
+  - family: Gesch
+    given: D.
+  - family: Oimoen
+    given: M.
+  - family: Danielson
+    given: J.
+  - family: Meyer
+    given: David
+  container-title: The International Archives of Photogrammetry, Remote
+    Sensing and Spatial Information Sciences
+  issued: 2016
+  key: RIVTW6DQ
+  libraryID: 1
+  page: 143
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Validation of the ASTER global digital elevation model version
+    3 over the conterminous United States
+  type: article-journal
+  volume: 41
+- id: fujisada2011
+  author:
+  - family: Fujisada
+    given: Hiroyuki
+  - family: Urai
+    given: Minoru
+  - family: Iwasaki
+    given: Akira
+  container-title: IEEE transactions on geoscience and remote sensing
+  ISSN: 0196-2892
+  issue: 12
+  issued: 2011
+  key: DIZX63BD
+  libraryID: 1
+  page: 5080-5091
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: IEEE
+  title: Advanced methodology for ASTER DEM generation
+  type: article-journal
+  volume: 49
+- id: hermosilla2022
+  author:
+  - family: Hermosilla
+    given: Txomin
+  - family: Bastyr
+    given: Alex
+  - family: Coops
+    given: Nicholas C.
+  - family: White
+    given: Joanne C.
+  - family: Wulder
+    given: Michael A.
+  container-title: Remote Sensing of Environment
+  ISSN: 0034-4257
+  issued: 2022
+  key: 4CA52AVI
+  libraryID: 1
+  page: 113276
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: Mapping the presence and distribution of tree species in
+    Canada's forested ecosystems
+  type: article-journal
+  volume: 282
+- id: zhu2016
+  author:
+  - family: Zhu
+    given: Zhe
+  - family: Gallant
+    given: Alisa L.
+  - family: Woodcock
+    given: Curtis E.
+  - family: Pengra
+    given: Bruce
+  - family: Olofsson
+    given: Pontus
+  - family: Loveland
+    given: Thomas R.
+  - family: Jin
+    given: Suming
+  - family: Dahal
+    given: Devendra
+  - family: Yang
+    given: Limin
+  - family: Auch
+    given: Roger F.
+  container-title: ISPRS Journal of Photogrammetry and Remote Sensing
+  DOI: "https://doi.org/10.1016/j.isprsjprs.2016.11.004"
+  ISSN: 0924-2716
+  issued: 2016
+  key: BTEFDTWJ
+  libraryID: 1
+  page: 206-221
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Optimizing selection of training and auxiliary data for
+    operational land cover classification for the LCMAP initiative
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0924271616302829"
+  volume: 122
+- id: fernández2018
+  author:
+  - family: Fernández
+    given: Alberto
+  - family: Garcia
+    given: Salvador
+  - family: Herrera
+    given: Francisco
+  - family: Chawla
+    given: Nitesh V.
+  container-title: Journal of artificial intelligence research
+  ISSN: 1076-9757
+  issued: 2018
+  key: JTILRL4M
+  libraryID: 1
+  page: 863-905
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "SMOTE for learning from imbalanced data: progress and
+    challenges, marking the 15-year anniversary"
+  type: article-journal
+  volume: 61
+- id: shang2020
+  author:
+  - family: Shang
+    given: Chen
+  - family: Coops
+    given: Nicholas C.
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Hermosilla
+    given: Txomin
+  container-title: International Journal of Applied Earth Observation
+    and Geoinformation
+  DOI: "https://doi.org/10.1016/j.jag.2019.101956"
+  ISSN: 0303-2434
+  issued: 2020
+  key: 39V7P3E3
+  libraryID: 1
+  page: 101956
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Update and spatial extension of strategic forest inventories
+    using time series remote sensing and modeling
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S030324341930738X"
+  volume: 84
+- id: roberts1989
+  author:
+  - family: Roberts
+    given: David W.
+  - family: Cooper
+    given: Stephen V.
+  container-title: "Land classifications based on vegetation:
+    applications for resource management"
+  issued: 1989
+  key: WD7Q6EF5
+  libraryID: 1
+  page: 90-96
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Concepts and techniques of vegetation mapping
+  type: article-journal
+- id: beven1979
+  author:
+  - family: Beven
+    given: K. J.
+  - family: Kirkby
+    given: M. J.
+  container-title: Hydrological Sciences Bulletin
+  DOI: 10.1080/02626667909491834
+  ISSN: 0303-6936
+  issue: 1
+  issued: 1979-03
+  key: A4S6MU5D
+  libraryID: 1
+  page: 43-69
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Taylor
+  title: A physically based, variable contributing area model of basin
+    hydrology / Un modèle à base physique de zone d'appel variable de
+    l'hydrologie du bassin versant
+  type: article-journal
+  URL: "https://doi.org/10.1080/02626667909491834"
+  volume: 24
+- id: huete2002
+  author:
+  - family: Huete
+    given: A.
+  - family: Didan
+    given: K.
+  - family: Miura
+    given: T.
+  - family: Rodriguez
+    given: E. P.
+  - family: Gao
+    given: X.
+  - family: Ferreira
+    given: L. G.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/S0034-4257(02)00096-2"
+  ISSN: 0034-4257
+  issue: 1
+  issued: 2002
+  key: CWW5TQTB
+  libraryID: 1
+  page: 195-213
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Overview of the radiometric and biophysical performance of the
+    MODIS vegetation indices
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425702000962"
+  volume: 83
+- id: tucker1979
+  author:
+  - family: Tucker
+    given: Compton J.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/0034-4257(79)90013-0"
+  ISSN: 0034-4257
+  issue: 2
+  issued: 1979
+  key: 2GYN9RGM
+  libraryID: 1
+  page: 127-150
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Red and photographic infrared linear combinations for
+    monitoring vegetation
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/0034425779900130"
+  volume: 8
+- id: powell2010
+  author:
+  - family: Powell
+    given: Scott L.
+  - family: Cohen
+    given: Warren B.
+  - family: Healey
+    given: Sean P.
+  - family: Kennedy
+    given: Robert E.
+  - family: Moisen
+    given: Gretchen G.
+  - family: Pierce
+    given: Kenneth B.
+  - family: Ohmann
+    given: Janet L.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2009.12.018"
+  ISSN: 0034-4257
+  issue: 5
+  issued: 2010
+  key: N9IA7DTT
+  libraryID: 1
+  page: 1053-1068
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "Quantification of live aboveground forest biomass dynamics
+    with Landsat time-series and field inventory data: A comparison of
+    empirical modeling approaches"
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425709003745"
+  volume: 114
+- id: crist1985
+  author:
+  - family: Crist
+    given: Eric P.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/0034-4257(85)90102-6"
+  ISSN: 0034-4257
+  issue: 3
+  issued: 1985
+  key: JVXWP8MM
+  libraryID: 1
+  page: 301-306
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: A TM Tasseled Cap equivalent transformation for reflectance
+    factor data
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/0034425785901026"
+  volume: 17
+- id: breiman2001
+  author:
+  - family: Breiman
+    given: Leo
+  container-title: Machine Learning
+  DOI: "10.1023/A:1010933404324"
+  ISSN: 1573-0565
+  issue: 1
+  issued: 2001
+  key: IQ46B5AB
+  libraryID: 1
+  page: 5-32
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Random Forests
+  type: article-journal
+  URL: "https://doi.org/10.1023/A:1010933404324"
+  volume: 45
+- id: hemmerling2021
+  author:
+  - family: Hemmerling
+    given: Jan
+  - family: Pflugmacher
+    given: Dirk
+  - family: Hostert
+    given: Patrick
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2021.112743"
+  ISSN: 0034-4257
+  issued: 2021
+  key: BM4LH38S
+  libraryID: 1
+  page: 112743
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Mapping temperate forest tree species using dense Sentinel-2
+    time series
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425721004636"
+  volume: 267
+- id: immitzer2012
+  author:
+  - family: Immitzer
+    given: Markus
+  - family: Atzberger
+    given: Clement
+  - family: Koukal
+    given: Tatjana
+  container-title: Remote Sensing
+  DOI: 10.3390/rs4092661
+  ISSN: 2072-4292
+  issue: 9
+  issued: 2012
+  key: 7PMUYY5L
+  libraryID: 1
+  page: 2661-2693
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Tree Species Classification with Random Forest Using Very High
+    Spatial Resolution 8-Band WorldView-2 Satellite Data
+  type: article-journal
+  URL: "https://www.mdpi.com/2072-4292/4/9/2661"
+  volume: 4
+- id: elith2008
+  author:
+  - family: Elith
+    given: J.
+  - family: Leathwick
+    given: J. R.
+  - family: Hastie
+    given: T.
+  container-title: Journal of Animal Ecology
+  DOI: "https://doi.org/10.1111/j.1365-2656.2008.01390.x"
+  issue: 4
+  issued: 2008
+  key: ZPXK54V5
+  libraryID: 1
+  page: 802-813
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: A working guide to boosted regression trees
+  type: article-journal
+  URL: "https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2656.2008.01390.x"
+  volume: 77
+- id: han2016
+  author:
+  - family: Han
+    given: Hong
+  - family: Guo
+    given: Xiaoling
+  - family: Yu
+    given: Hua
+  container-title: 2016 7th IEEE International Conference on Software
+    Engineering and Service Science (ICSESS)
+  DOI: 10.1109/ICSESS.2016.7883053
+  ISBN: 2327-0594
+  issued: 2016
+  key: 3GW2HQTG
+  libraryID: 1
+  page: 219-224
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Variable selection using Mean Decrease Accuracy and Mean
+    Decrease Gini based on Random Forest
+  type: paper-conference
+- id: cichowski2022
+  author:
+  - family: Cichowski
+    given: Deborah
+  - family: Sutherland
+    given: Glenn D.
+  - family: McNay
+    given: R. Scott
+  - family: Sulyma
+    given: Randy
+  container-title: Forests 2022, Vol. 13, Page 251
+  DOI: 10.3390/F13020251
+  ISSN: 1999-4907
+  issue: 2
+  issued: 2022-02
+  key: CVWJZIUC
+  libraryID: 1
+  page: 251
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Multidisciplinary
+  title: Direct and Indirect Effects of Habitat Disturbances on Caribou
+    Terrestrial Forage Lichens in Montane Forests of British Columbia
+  type: article-journal
+  URL: "https://www.mdpi.com/1999-4907/13/2/251/htm
+    https://www.mdpi.com/1999-4907/13/2/251"
+  volume: 13
+- id: rapai2017
+  author:
+  - family: Rapai
+    given: Sean B.
+  - family: McColl
+    given: Duncan
+  - family: McMullin
+    given: Richard Troy
+  container-title: "https://doi.org/10.5558/tfc2017-029"
+  DOI: 10.5558/TFC2017-029
+  ISSN: 00157546
+  issue: 3
+  issued: 2017-10
+  key: 6PMYF8Z4
+  libraryID: 1
+  page: 204-212
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: NRC
+  title: Examining the role of terrestrial lichen transplants in
+    restoring woodland caribou winter habitat
+  type: article-journal
+  URL: "https://pubs.cif-ifc.org/doi/10.5558/tfc2017-029"
+  volume: 93
+- id: rudolph2019
+  author:
+  - family: Rudolph
+    given: Tyler D.
+  - family: MacNearney
+    given: Doug
+  - family: Finnegan
+    given: Laura
+  container-title: Facets
+  DOI: 10.1139/FACETS-2018-0050/SUPPL_FILE/FACETS-2018-0050_SUPPLEMENT1.DOCX
+  ISSN: 23711671
+  issue: 4
+  issued: 2019
+  key: XTZ77E9Y
+  libraryID: 1
+  page: 531-550
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Canadian
+  title: Lost in translation? Insights into caribou habitat selection
+    from forest inventory data
+  type: article-journal
+  URL: "https://www.facetsjournal.com/doi/10.1139/facets-2018-0050"
+  volume: 2019
+- id: fassnacht2016
+  author:
+  - family: Fassnacht
+    given: Fabian Ewald
+  - family: Latifi
+    given: Hooman
+  - family: Stereńczak
+    given: Krzysztof
+  - family: Modzelewska
+    given: Aneta
+  - family: Lefsky
+    given: Michael
+  - family: Waser
+    given: Lars T.
+  - family: Straub
+    given: Christoph
+  - family: Ghosh
+    given: Aniruddha
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2016.08.013"
+  ISSN: 0034-4257
+  issued: 2016
+  key: EXKY38GS
+  libraryID: 1
+  page: 64-87
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Review of studies on tree species classification from remotely
+    sensed data
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425716303169"
+  volume: 186
+- id: grabska2019
+  author:
+  - family: Grabska
+    given: Ewa
+  - family: Hostert
+    given: Patrick
+  - family: Pflugmacher
+    given: Dirk
+  - family: Ostapowicz
+    given: Katarzyna
+  container-title: Remote Sensing
+  ISSN: 2072-4292
+  issue: 10
+  issued: 2019
+  key: CX6XRXKF
+  libraryID: 1
+  page: 1197
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: MDPI
+  title: Forest stand species mapping using the Sentinel-2 time series
+  type: article-journal
+  volume: 11
+- id: hoscilo2019
+  author:
+  - family: Hościło
+    given: Agata
+  - family: Lewandowska
+    given: Aneta
+  container-title: Remote Sensing
+  ISSN: 2072-4292
+  issue: 8
+  issued: 2019
+  key: GYCQB8P3
+  libraryID: 1
+  page: 929
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: MDPI
+  title: Mapping forest type and tree species on a regional scale using
+    multi-temporal Sentinel-2 data
+  type: article-journal
+  volume: 11
+- id: guo2017
+  author:
+  - family: Guo
+    given: Xuan
+  - family: Coops
+    given: Nicholas C.
+  - family: Tompalski
+    given: Piotr
+  - family: Nielsen
+    given: Scott E.
+  - family: Bater
+    given: Christopher W.
+  - family: Stadt
+    given: J. John
+  container-title: Ecological Informatics
+  DOI: "https://doi.org/10.1016/j.ecoinf.2017.01.005"
+  ISSN: 1574-9541
+  issued: 2017
+  key: Z9RQ6TEX
+  libraryID: 1
+  page: 50-61
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Regional mapping of vegetation structure for biodiversity
+    monitoring using airborne lidar data
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S1574954116300905"
+  volume: 38
+- id: hins2009
+  author:
+  - family: Hins
+    given: Caroline
+  - family: Ouellet
+    given: Jean-Pierre
+  - family: Dussault
+    given: Claude
+  - family: St-Laurent
+    given: Martin-Hugues
+  container-title: Forest Ecology and Management
+  DOI: "https://doi.org/10.1016/j.foreco.2008.09.049"
+  ISSN: 0378-1127
+  issue: 2
+  issued: 2009
+  key: EU8TA7EW
+  libraryID: 1
+  page: 636-643
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: "Habitat selection by forest-dwelling caribou in managed boreal
+    forest of eastern Canada: Evidence of a landscape configuration
+    effect"
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0378112708007330"
+  volume: 257
+- id: mcloughlin2005
+  author:
+  - family: McLoughlin
+    given: Philip D.
+  - family: Dunford
+    given: Jesse S.
+  - family: Boutin
+    given: Stan
+  container-title: Journal of animal ecology
+  ISSN: 0021-8790
+  issued: 2005
+  key: 47LCFPFC
+  libraryID: 1
+  page: 701-707
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: JSTOR
+  title: Relating predation mortality to broad-scale habitat selection
+  type: article-journal
+- id: rettie2000
+  author:
+  - family: Rettie
+    given: W. James
+  - family: Messier
+    given: François
+  container-title: Ecography
+  ISSN: 0906-7590
+  issue: 4
+  issued: 2000
+  key: BE3WP6KY
+  libraryID: 1
+  page: 466-478
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Wiley
+  title: "Hierarchical habitat selection by woodland caribou: its
+    relationship to limiting factors"
+  type: article-journal
+  volume: 23
+- id: wittmer2007
+  author:
+  - family: Wittmer
+    given: Heiko U.
+  - family: McLellan
+    given: Bruce N.
+  - family: Serrouya
+    given: Robert
+  - family: Apps
+    given: Clayton D.
+  container-title: Journal of animal ecology
+  ISSN: 0021-8790
+  issue: 3
+  issued: 2007
+  key: VAKGNLXX
+  libraryID: 1
+  page: 568-579
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Wiley
+  title: Changes in landscape composition influence the decline of a
+    threatened woodland caribou population
+  type: article-journal
+  volume: 76
+- id: obrien2006
+  author:
+  - family: O'Brien
+    given: Dan
+  - family: Manseau
+    given: Micheline
+  - family: Fall
+    given: Andrew
+  - family: Fortin
+    given: Marie-Josée
+  container-title: Biological conservation
+  ISSN: 0006-3207
+  issue: 1
+  issued: 2006
+  key: KTFR47ST
+  libraryID: 1
+  page: 70-83
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: "Testing the importance of spatial configuration of winter
+    habitat for woodland caribou: an application of graph theory"
+  type: article-journal
+  volume: 130
+- id: zimmermann2007
+  author:
+  - family: Zimmermann
+    given: N. E.
+  - family: JR
+    given: T. C. Edwards
+  - family: Moisen
+    given: G. G.
+  - family: Frescino
+    given: T. S.
+  - family: Blackard
+    given: J. A.
+  container-title: Journal of Applied Ecology
+  DOI: "https://doi.org/10.1111/j.1365-2664.2007.01348.x"
+  issue: 5
+  issued: 2007
+  key: XL8WD6AW
+  libraryID: 1
+  page: 1057-1067
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Remote sensing-based predictors improve distribution models of
+    rare, early successional and broadleaf tree species in Utah
+  type: article-journal
+  URL: "https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2007.01348.x"
+  volume: 44
+- id: engler2013
+  author:
+  - family: Engler
+    given: Robin
+  - family: Waser
+    given: Lars T.
+  - family: Zimmermann
+    given: Niklaus E.
+  - family: Schaub
+    given: Marcus
+  - family: Berdos
+    given: Savvas
+  - family: Ginzler
+    given: Christian
+  - family: Psomas
+    given: Achilleas
+  container-title: Forest Ecology and Management
+  DOI: "https://doi.org/10.1016/j.foreco.2013.07.059"
+  ISSN: 0378-1127
+  issued: 2013
+  key: L7H9LRM9
+  libraryID: 1
+  page: 64-73
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Combining ensemble modeling and remote sensing for mapping
+    individual tree species at high spatial resolution
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0378112713005173"
+  volume: 310
+- id: breidenbach2020
+  author:
+  - family: Breidenbach
+    given: Johannes
+  - family: Waser
+    given: Lars T.
+  - family: Debella-Gilo
+    given: Misganu
+  - family: Schumacher
+    given: Johannes
+  - family: Rahlf
+    given: Johannes
+  - family: Hauglin
+    given: Marius
+  - family: Puliti
+    given: Stefano
+  - family: Astrup
+    given: Rasmus
+  container-title: Canadian Journal of Forest Research
+  DOI: 10.1139/cjfr-2020-0170
+  ISSN: 0045-5067
+  issue: 3
+  issued: 2020-08
+  key: 3NHL5AR7
+  libraryID: 1
+  page: 365-379
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: NRC
+  title: National mapping and estimation of forest area by dominant tree
+    species using Sentinel-2 data
+  type: article-journal
+  URL: "https://doi.org/10.1139/cjfr-2020-0170"
+  volume: 51
+- id: pasquarella2018
+  author:
+  - family: Pasquarella
+    given: Valerie J.
+  - family: Holden
+    given: Christopher E.
+  - family: Woodcock
+    given: Curtis E.
+  container-title: Remote Sensing of Environment
+  DOI: "https://doi.org/10.1016/j.rse.2018.02.064"
+  ISSN: 0034-4257
+  issued: 2018
+  key: 4V3DWIRT
+  libraryID: 1
+  page: 193-207
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Improved mapping of forest type using spectral-temporal Landsat
+    features
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0034425718300762"
+  volume: 210
+- id: kollert2021
+  author:
+  - family: Kollert
+    given: Andreas
+  - family: Bremer
+    given: Magnus
+  - family: Löw
+    given: Markus
+  - family: Rutzinger
+    given: Martin
+  container-title: International Journal of Applied Earth Observation
+    and Geoinformation
+  DOI: "https://doi.org/10.1016/j.jag.2020.102208"
+  ISSN: 0303-2434
+  issued: 2021
+  key: PMQXTWUQ
+  libraryID: 1
+  page: 102208
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Exploring the potential of land surface phenology and seasonal
+    cloud free composites of one year of Sentinel-2 imagery for tree
+    species mapping in a mountainous region
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S030324342030461X"
+  volume: 94
+- id: javaheri2014
+  author:
+  - family: Javaheri
+    given: Sadaf Hossein
+  - family: Sepehri
+    given: Mohammad Mehdi
+  - family: Teimourpour
+    given: Babak
+  container-title: Data Mining Applications with R
+  DOI: "https://doi.org/10.1016/B978-0-12-411511-8.00006-2"
+  editor:
+  - family: Zhao
+    given: Yanchang
+  - family: Cen
+    given: Yonghua
+  ISBN: 978-0-12-411511-8
+  issued: 2014
+  key: PC4VA4T3
+  libraryID: 1
+  page: 153-180
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Academic Press
+  publisher-place: Boston
+  title: "Chapter 6 - Response Modeling in Direct Marketing: A Data
+    Mining-Based Approach for Target Selection"
+  type: chapter
+  URL: "https://www.sciencedirect.com/science/article/pii/B9780124115118000062"
+- id: cooke2017
+  author:
+  - family: Cooke
+    given: Barry J.
+  - family: Carroll
+    given: Allan L.
+  container-title: Forest Ecology and Management
+  DOI: 10.1016/J.FORECO.2017.04.008
+  ISSN: 0378-1127
+  issued: 2017-07
+  key: 2TZ6NNGX
+  libraryID: 1
+  page: 11-25
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: "Predicting the risk of mountain pine beetle spread to eastern
+    pine forests: Considering uncertainty in uncertain times"
+  type: article-journal
+  volume: 396
+- id: hicke2006
+  author:
+  - family: Hicke
+    given: Jeffrey A.
+  - family: Logan
+    given: Jesse A.
+  - family: Powell
+    given: James
+  - family: Ojima
+    given: Dennis S.
+  container-title: "Journal of Geophysical Research: Biogeosciences"
+  ISSN: 0148-0227
+  issue: G2
+  issued: 2006
+  key: 3V4YNWAQ
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Wiley
+  title: Changing temperatures influence suitability for modeled
+    mountain pine beetle (Dendroctonus ponderosae) outbreaks in the
+    western United States
+  type: article-journal
+  volume: 111
+- id: cullingham2011
+  author:
+  - family: Cullingham
+    given: Catherine I.
+  - family: Cooke
+    given: Janice E. K.
+  - family: Dang
+    given: Sophie
+  - family: Davis
+    given: Corey S.
+  - family: Cooke
+    given: Barry J.
+  - family: Coltman
+    given: David W.
+  container-title: Molecular Ecology
+  ISSN: 0962-1083
+  issue: 10
+  issued: 2011
+  key: XVHZGVWW
+  libraryID: 1
+  page: 2157-2171
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Wiley
+  title: Mountain pine beetle host‐range expansion threatens the boreal
+    forest
+  type: article-journal
+  volume: 20
+- id: coops2008
+  author:
+  - family: Coops
+    given: Nicholas C.
+  - family: Timko
+    given: Joleen A.
+  - family: Wulder
+    given: Michael A.
+  - family: White
+    given: Joanne C.
+  - family: Ortlepp
+    given: Stephanie M.
+  container-title: International Journal of Pest Management
+  ISSN: 0967-0874
+  issue: 2
+  issued: 2008
+  key: 6DRD6ABB
+  libraryID: 1
+  page: 151-165
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Taylor
+  title: Investigating the effectiveness of mountain pine beetle
+    mitigation strategies
+  type: article-journal
+  volume: 54
+- id: fettig2014
+  author:
+  - family: Fettig
+    given: Christopher J.
+  - family: Gibson
+    given: Kenneth E.
+  - family: Munson
+    given: A. Steven
+  - family: Negrón
+    given: José F.
+  container-title: Forest Science
+  ISSN: 0015-749X
+  issue: 3
+  issued: 2014
+  key: 9MVB85AI
+  libraryID: 1
+  page: 450-463
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Oxford
+  title: Cultural practices for prevention and mitigation of mountain
+    pine beetle infestations
+  type: article-journal
+  volume: 60
+- id: gillette2014
+  author:
+  - family: Gillette
+    given: Nancy E.
+  - family: Wood
+    given: David L.
+  - family: Hines
+    given: Sarah J.
+  - family: Runyon
+    given: Justin B.
+  - family: Negrón
+    given: José F.
+  container-title: Forest Science
+  ISSN: 0015-749X
+  issue: 3
+  issued: 2014
+  key: TFXL4MGA
+  libraryID: 1
+  page: 527-538
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Oxford
+  title: "The once and future forest: Consequences of mountain pine
+    beetle treatment decisions"
+  type: article-journal
+  volume: 60
+- id: lindenmayer2012
+  author:
+  - family: Lindenmayer
+    given: David B.
+  - family: Burton
+    given: Philip J.
+  - family: Franklin
+    given: Jerry F.
+  ISBN: 1-61091-146-6
+  issued: 2012
+  key: MTN2RS3B
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  publisher: Island Press
+  title: Salvage logging and its ecological consequences
+  type: book
+- id: six2014
+  author:
+  - family: Six
+    given: Diana L.
+  - family: Biber
+    given: Eric
+  - family: Long
+    given: Elisabeth
+  container-title: Forests
+  ISSN: 1999-4907
+  issue: 1
+  issued: 2014
+  key: 3ADLE3UQ
+  libraryID: 1
+  page: 103-133
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: MDPI
+  title: "Management for mountain pine beetle outbreak suppression: Does
+    relevant science support current policy?"
+  type: article-journal
+  volume: 5
+- id: dhar2016
+  author:
+  - family: Dhar
+    given: Amalesh
+  - family: Parrott
+    given: Lael
+  - family: Heckbert
+    given: Scott
+  container-title: Canadian Journal of Forest Research
+  ISSN: 0045-5067
+  issue: 8
+  issued: 2016
+  key: SHT5ZTD8
+  libraryID: 1
+  page: 987-999
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: NRC
+  title: Consequences of mountain pine beetle outbreak on forest
+    ecosystem services in western Canada
+  type: article-journal
+  volume: 46
+- id: chan-mcleod2006
+  author:
+  - family: Chan-McLeod
+    given: Ann C. Allaye
+  container-title: Journal of Ecosystems and Management
+  issue: 2
+  issued: 2006
+  key: ZY2NRRD5
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: A review and synthesis of the effects of unsalvaged
+    mountain-pine-beetle-attacked stands on wildlife and implications
+    for forest management
+  type: article-journal
+  volume: 7
+- id: fornwalt2018
+  author:
+  - family: Fornwalt
+    given: Paula J.
+  - family: Rhoades
+    given: Charles C.
+  - family: Hubbard
+    given: Robert M.
+  - family: Harris
+    given: Rebecca L.
+  - family: Faist
+    given: Akasha M.
+  - family: Bowman
+    given: William D.
+  container-title: Forest Ecology and Management
+  ISSN: 0378-1127
+  issued: 2018
+  key: GRM5TLED
+  libraryID: 1
+  page: 84-93
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: Short-term understory plant community responses to salvage
+    logging in beetle-affected lodgepole pine forests
+  type: article-journal
+  volume: 409
+- id: saab2014
+  author:
+  - family: Saab
+    given: Victoria A.
+  - family: Latif
+    given: Quresh S.
+  - family: Rowland
+    given: Mary M.
+  - family: Johnson
+    given: Tracey N.
+  - family: Chalfoun
+    given: Anna D.
+  - family: Buskirk
+    given: Steven W.
+  - family: Heyward
+    given: Joslin E.
+  - family: Dresser
+    given: Matthew A.
+  container-title: Forest Science
+  DOI: 10.5849/FORSCI.13-022
+  ISSN: 0015-749X
+  issue: 3
+  issued: 2014-06
+  key: IKTTGB8W
+  libraryID: 1
+  page: 539-559
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Oxford
+  title: Ecological Consequences of Mountain Pine Beetle Outbreaks for
+    Wildlife in Western North American Forests
+  type: article-journal
+  URL: "https://academic.oup.com/forestscience/article/60/3/539/4583750"
+  volume: 60
+- id: canada2012
+  author:
+  - family: Canada
+    given: Environment
+  issued: 2012
+  key: EWCAUV3H
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Recovery Strategy for the Woodland Caribou (Rangifer Tarandus
+    Caribou), Boreal Population, in Canada
+  type: report
+- id: festa-bianchet2011
+  author:
+  - family: Festa-Bianchet
+    given: M.
+  - family: Ray
+    given: J. C.
+  - family: Boutin
+    given: S.
+  - family: Côté
+    given: S. D.
+  - family: Gunn
+    given: A.
+  container-title: Canadian Journal of Zoology
+  DOI: 10.1139/Z11-025/ASSET/IMAGES/Z11-025TAB3.GIF
+  ISSN: 14803283
+  issue: 5
+  issued: 2011
+  key: P629X3MV
+  libraryID: 1
+  page: 419-434
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Canadian
+  title: "Conservation of caribou (rangifer tarandus) in Canada: An
+    uncertain future1"
+  type: article-journal
+  URL: "https://cdnsciencepub.com/doi/10.1139/z11-025"
+  volume: 89
+- id: russell2019
+  author:
+  - family: Russell
+    given: Kelsey L. M.
+  - family: Johnson
+    given: Chris J.
+  container-title: Forest Ecology and Management
+  DOI: 10.1016/J.FORECO.2018.12.004
+  ISSN: 0378-1127
+  issued: 2019-02
+  key: AHLPYSV3
+  libraryID: 1
+  page: 1-17
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: "Post-fire dynamics of terrestrial lichens: Implications for
+    the recovery of woodland caribou winter range"
+  type: article-journal
+  volume: 434
+- id: toth2016
+  author:
+  - family: Toth
+    given: Charles
+  - family: Jóźków
+    given: Grzegorz
+  container-title: ISPRS Journal of Photogrammetry and Remote Sensing
+  ISSN: 0924-2716
+  issued: 2016
+  key: SPU476S2
+  libraryID: 1
+  page: 22-36
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Elsevier
+  title: "Remote sensing platforms and sensors: A survey"
+  type: article-journal
+  volume: 115
+- id: lechner2020
+  author:
+  - family: Lechner
+    given: Alex M.
+  - family: Foody
+    given: Giles M.
+  - family: Boyd
+    given: Doreen S.
+  container-title: One Earth
+  DOI: "https://doi.org/10.1016/j.oneear.2020.05.001"
+  ISSN: 2590-3322
+  issue: 5
+  issued: 2020
+  key: W4I99VRM
+  libraryID: 1
+  page: 405-412
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Applications in Remote Sensing to Forest Ecology and Management
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S2590332220302062"
+  volume: 2
+- id: kwok2018
+  author:
+  - family: Kwok
+    given: Roberta
+  container-title: Nature
+  ISSN: 0028-0836
+  issue: 7699
+  issued: 2018
+  key: 56NXBCFD
+  libraryID: 1
+  page: 137-138
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Nature
+  title: Ecology's remote-sensing revolution
+  type: article-journal
+  volume: 556
+- id: lim2003
+  author:
+  - family: Lim
+    given: Kevin
+  - family: Treitz
+    given: Paul
+  - family: Wulder
+    given: Michael
+  - family: St-Onge
+    given: Benoît
+  - family: Flood
+    given: Martin
+  container-title: Progress in physical geography
+  ISSN: 0309-1333
+  issue: 1
+  issued: 2003
+  key: V9CGIBWM
+  libraryID: 1
+  page: 88-106
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publications Sage CA: Thousand
+  Publisher: Sage
+  title: LiDAR remote sensing of forest structure
+  type: article-journal
+  volume: 27
+- id: thompson2015
+  author:
+  - family: Thompson
+    given: Shanley D.
+  - family: Nelson
+    given: Trisalyn A.
+  - family: White
+    given: Joanne C.
+  - family: Wulder
+    given: Michael A.
+  container-title: Canadian Journal of Remote Sensing
+  DOI: 10.1080/07038992.2015.1065708
+  ISSN: 0703-8992
+  issue: 3
+  issued: 2015-05
+  key: L6GCNVVN
+  libraryID: 1
+  page: 203-218
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Taylor
+  title: Mapping Dominant Tree Species over Large Forested Areas Using
+    Landsat Best-Available-Pixel Image Composites
+  type: article-journal
+  URL: "https://doi.org/10.1080/07038992.2015.1065708"
+  volume: 41
+- id: lausch2016
+  author:
+  - family: Lausch
+    given: Angela
+  - family: Erasmi
+    given: Stefan
+  - family: King
+    given: Douglas J.
+  - family: Magdon
+    given: Paul
+  - family: Heurich
+    given: Marco
+  container-title: Remote Sensing
+  ISSN: 2072-4292
+  issue: 12
+  issued: 2016
+  key: T5FZDZDG
+  libraryID: 1
+  page: 1029
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: MDPI
+  title: Understanding forest health with remote sensing-part I---a
+    review of spectral traits, processes and remote-sensing
+    characteristics
+  type: article-journal
+  volume: 8
+- id: wulder2006
+  author:
+  - family: Wulder
+    given: Michael A.
+  - family: Dymond
+    given: Caren C.
+  - family: White
+    given: Joanne C.
+  - family: Erickson
+    given: Bob
+  - family: Safranyik
+    given: L.
+  - family: Wilson
+    given: B.
+  container-title: "The Mountain Pine Beetle: A Synthesis of Biology,
+    Management, and Impacts on Lodgepole Pine Natural Resources Canada,
+    Canadian Forest Service, Pacific Forestry Centre, Victoria, BC"
+  issued: 2006
+  key: 2WMSPKVB
+  libraryID: 1
+  page: 123-154
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: Detection, mapping, and monitoring of the mountain pine beetle
+  type: article-journal
+- id: white2014a
+  author:
+  - family: White
+    given: Joanne C.
+  - family: Wulder
+    given: Michael A.
+  container-title: Canadian Journal of Remote Sensing
+  DOI: 10.5589/m13-053
+  ISSN: 0703-8992
+  issue: 6
+  issued: 2014-01
+  key: 2PMK4LQQ
+  libraryID: 1
+  page: 455-467
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Taylor
+  title: "The Landsat observation record of Canada: 1972--2012"
+  type: article-journal
+  URL: "https://doi.org/10.5589/m13-053"
+  volume: 39
+- id: spacesystems2019
+  author:
+  - family: Spacesystems
+    given: NASA/METI/AIST/Japan
+  - family: Team
+    given: U. S. /Japan ASTER Science
+  container-title: NASA EOSDIS Land Processes DAAC
+  issued: 2019
+  key: 2SIBXA8W
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  title: ASTER Global Digital Elevation Model V003 \[Data set\]
+  type: article-journal
+...
