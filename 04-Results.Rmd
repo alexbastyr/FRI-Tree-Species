@@ -17,9 +17,9 @@ rgl::setupKnitr(autoprint = TRUE)
 
 ```
 
-# 4. Results {#sec-results}
+# Results
 
-## 4.1 Sample Filtering and selection {#sec-sample-filtering-and-selection}
+## Sample Filtering and selection
 
 The total number of available samples to select for training and calibration from the forest inventory and five needle pine datasets was 5,750,702. Through sample filtering, as described in Section 3.2, the available pool of samples was reduced to 3,158,558. This sample reduction resulted in the number of samples available for each tile to range from 2 to 136,193 (Figure 1A). The number of samples per tile used to generate local random forest models, see section 3.4, ranged from 14 to 4,376 (Figure 1B).
 
@@ -27,15 +27,15 @@ The total number of available samples to select for training and calibration fro
 
 **Figure 1: Illustrates the number of eligible samples per tile (A), and number of samples used to generate a classification model per tile (B)**
 
-## 4.2 Relative Importance of predictor variables {#sec-predictor-variable-importance}
+## Relative Importance of predictor variables
 
 The overall relative variable importance ranking results (Figure 2) displays the predictor variables sorted by their median ranking for the 89 tiles. The most important set of variables include those that provide climatic, geographic and topographic information as well as some remote sensing variables. These variables include, elevation, total precipitation, annual average maximum temperature, latitude, longitude, tasseled cap greenness index, the NIR band, slope and annual average minimum temperature. This set of variables have a median rank of below 10. The set of variables associated with average median ranks predominately consists of Landsat based vegetation and spectral indices that are commonly used in vegetation assessment and change detection (NDVI, NBR, EVI) as well as some topographic and phenological timing metrics (OGI, LoGS). The last set of predictor variables, with the lowest overall median rankings, were the remaining Landsat bands and phenological timing metrics.
 
-![](images/ranked_predictors.png)
+![](images/ranked_predictors.png){.center}
 
 **Figure 2: Relative predictor variable importance ranking sorted by median across all tiles. Refer to Table 3 for full names of the predictor variables**
 
-## 4.3 Accuracy Assessment: Confusion Matrix {#sec-cm-accuracy-assessment}
+## Accuracy Assessment: Confusion Matrix
 
 The accuracy of the leading tree species classification was assessed using the validation samples from section 3.6 to generate a confusion matrix (Table 5), the overall accuracy was 76.6%. Tree species' producer's accuracy values ranged from 11.8% to 92.2%, with an average value of 59.6%. Tree species' user's accuracy values ranged between 66.7% and 91.2%, with an average value of 76.7%. The tree species classes with the lowest producer accuracy values, and hence experienced the most confusion, include whitebark pine (PINU.ALB), limber pine (PINU.FLE), other deciduous (OTDE.SPP), and willow (SALI.SPP).
 
@@ -43,7 +43,7 @@ The accuracy of the leading tree species classification was assessed using the v
 
 ![](images/confusion_matrix.jpg)
 
-## 4.4 Leading Tree Species Map {#sec-leading-species-map}
+## Leading Tree Species Map
 
 The leading tree species map for our region of interest across the provinces and territories of Alberta, British Columbia, and the Yukon, at a 30-m resolution is shown below, in Figure 3. In total 15 tree species and species groups were mapped. Supporting the classified map, Table 6, displays a summary table indicating the absolute and relative areas of each mapped class. The most common species class mapped is Poplar which has an extent of over 20 Mha, representing roughly 20.6% of the total area mapped. The least common tree species mapped is the class Other Spruce, with an extent of 512 ha, representing only 0.001% of the area mapped.
 
@@ -55,7 +55,7 @@ The leading tree species map for our region of interest across the provinces and
 
 ![](images/FRI_species_area.jpg)
 
-## 4.5 Caribou Habitat Analysis {#sec-habitat-analysis}
+## Caribou Habitat Analysis
 
 From the overlay analysis of caribou herd ranges with the combined tree species and canopy cover map, the forested area for each caribou herd could be summarized by proportional area covered by leading overstory tree species and canopy openness. These summarized results for each herd can be seen below for the caribou herds residing in Alberta (Figure 4), British Columbia (Figure 5) and the Yukon (Figure 6). Comparing caribou herd habitat by province and territory, the dominant leading tree species for Alberta is Black Spruce (accounting for 48.7% of area), Coniferous for British Columbia (39.1%), and White Spruce for the Yukon (37.5%), see Figure 7. With respect to forest structure and canopy openness, the forested habitat for Alberta and British Columbia was predominately closed canopy, which accounted for 60.2% and 61% of area respectably, whereas the forested habitat in the Yukon typically displayed an open canopy (52.1%).
 

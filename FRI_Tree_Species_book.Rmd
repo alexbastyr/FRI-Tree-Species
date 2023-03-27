@@ -7,76 +7,16 @@ output: bookdown::gitbook
 documentclass: book
 link-citations: true
 bibliography: references.yaml
-csl: oxforddown
+#csl: oxforddown
 ---
-
-# Introduction {#sec-introduction}
-
-Placeholder
-
-
 
 <!--chapter:end:index.Rmd-->
 
-
-# 2. Data {#sec-data}
-
-Placeholder
-
-
-## 2.1 Forest Inventory Data {#sec-forest-inventory-data}
-### 2.1.1 Alberta {#sec-alberta-forest-inventory-datasets}
-### 2.1.2 British Columbia Forest Inventory {#sec-bc-forest-inventory-datasets}
-### 2.1.3 Yukon Forest Inventory {#sec-yukon-forest-inventory-datasets}
-## 2.2 Targeted Forest Data Sets {#sec-targeted-forest-dataset}
-## 2.3 Landsat-derived data {#sec-landsat-derived-data}
-## 2.4 Climate Data {#sec-climate-data}
-## 2.5 Phenology Data {#sec-phenology-data}
-## 2.6 Topographic Data {#sec-topographic-data}
-## 2.7 Caribou Data {#sec-caribou-data}
-
 <!--chapter:end:02-Data.Rmd-->
-
-
-# 3. Methods {#sec-Methods}
-
-Placeholder
-
-
-## 3.1 Tile System {#sec-tile_system}
-## 3.2 Sample Filtering and Selection {#sec-sample-filtering-and-selection}
-## 3.3 Predictor Variables {#sec-predictor-variables}
-## 3.4 Local Random Forest Models {#sec-random-forest-models}
-## 3.5 Accuracy Assessment {#sec-accuracy-assessment}
-## 3.6 Species at Risk Habitat Analysis {#sec-habitat-analysis}
 
 <!--chapter:end:03-Methods.Rmd-->
 
-
-# 4. Results {#sec-results}
-
-Placeholder
-
-
-## 4.1 Sample Filtering and selection {#sec-sample-filtering-and-selection}
-## 4.2 Relative Importance of predictor variables {#sec-predictor-variable-importance}
-## 4.3 Accuracy Assessment: Confusion Matrix {#sec-cm-accuracy-assessment}
-## 4.4 Leading Tree Species Map {#sec-leading-species-map}
-## 4.5 Caribou Habitat Analysis {#sec-habitat-analysis}
-
 <!--chapter:end:04-Results.Rmd-->
 
-
-# Discussion {#sec-discussion}
-
-Placeholder
-
-
-## 5.1 Predictor Variables {#sec-predictor-variables}
-## 5.2 Accuracy {#sec-accuracy}
-## 5.3 Caribou Analysis {#sec-caribou-analysis}
-# 6 Acknowledgements {#sec-acknowledgements}
-
 <!--chapter:end:05-Discussion.Rmd-->
-
 

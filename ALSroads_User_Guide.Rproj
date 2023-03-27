@@ -13,3 +13,4 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
+WebsitePath: E:/FRI_Alberta/FRI_LiveDraft/FRI-Tree-Species
