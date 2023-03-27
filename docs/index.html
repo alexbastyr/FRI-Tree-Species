@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</title>
+  <meta name="description" content="Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  
+  
+  
+
+<meta name="author" content="Alex Bastyr and Nicholas Coops" />
+
+
+<meta name="date" content="2023-03-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="data.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data.html"><a href="data.html#forest-inventory-data"><i class="fa fa-check"></i><b>2.1</b> Forest Inventory Data</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data.html"><a href="data.html#alberta"><i class="fa fa-check"></i><b>2.1.1</b> Alberta</a></li>
+<li class="chapter" data-level="2.1.2" data-path="data.html"><a href="data.html#british-columbia-forest-inventory"><i class="fa fa-check"></i><b>2.1.2</b> British Columbia Forest Inventory</a></li>
+<li class="chapter" data-level="2.1.3" data-path="data.html"><a href="data.html#yukon-forest-inventory"><i class="fa fa-check"></i><b>2.1.3</b> Yukon Forest Inventory</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data.html"><a href="data.html#targeted-forest-data-sets"><i class="fa fa-check"></i><b>2.2</b> Targeted Forest Data Sets</a></li>
+<li class="chapter" data-level="2.3" data-path="data.html"><a href="data.html#landsat-derived-data"><i class="fa fa-check"></i><b>2.3</b> Landsat-derived data</a></li>
+<li class="chapter" data-level="2.4" data-path="data.html"><a href="data.html#climate-data"><i class="fa fa-check"></i><b>2.4</b> Climate Data</a></li>
+<li class="chapter" data-level="2.5" data-path="data.html"><a href="data.html#phenology-data"><i class="fa fa-check"></i><b>2.5</b> Phenology Data</a></li>
+<li class="chapter" data-level="2.6" data-path="data.html"><a href="data.html#topographic-data"><i class="fa fa-check"></i><b>2.6</b> Topographic Data</a></li>
+<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html#caribou-data"><i class="fa fa-check"></i><b>2.7</b> Caribou Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="methods.html"><a href="methods.html#tile-system"><i class="fa fa-check"></i><b>3.1</b> Tile System</a></li>
+<li class="chapter" data-level="3.2" data-path="methods.html"><a href="methods.html#sample-filtering-and-selection"><i class="fa fa-check"></i><b>3.2</b> Sample Filtering and Selection</a></li>
+<li class="chapter" data-level="3.3" data-path="methods.html"><a href="methods.html#predictor-variables"><i class="fa fa-check"></i><b>3.3</b> Predictor Variables</a></li>
+<li class="chapter" data-level="3.4" data-path="methods.html"><a href="methods.html#local-random-forest-models"><i class="fa fa-check"></i><b>3.4</b> Local Random Forest Models</a></li>
+<li class="chapter" data-level="3.5" data-path="methods.html"><a href="methods.html#accuracy-assessment"><i class="fa fa-check"></i><b>3.5</b> Accuracy Assessment</a></li>
+<li class="chapter" data-level="3.6" data-path="methods.html"><a href="methods.html#species-at-risk-habitat-analysis"><i class="fa fa-check"></i><b>3.6</b> Species at Risk Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="results.html"><a href="results.html#sample-filtering-and-selection-1"><i class="fa fa-check"></i><b>4.1</b> Sample Filtering and selection</a></li>
+<li class="chapter" data-level="4.2" data-path="results.html"><a href="results.html#relative-importance-of-predictor-variables"><i class="fa fa-check"></i><b>4.2</b> Relative Importance of predictor variables</a></li>
+<li class="chapter" data-level="4.3" data-path="results.html"><a href="results.html#accuracy-assessment-confusion-matrix"><i class="fa fa-check"></i><b>4.3</b> Accuracy Assessment: Confusion Matrix</a></li>
+<li class="chapter" data-level="4.4" data-path="results.html"><a href="results.html#leading-tree-species-map"><i class="fa fa-check"></i><b>4.4</b> Leading Tree Species Map</a></li>
+<li class="chapter" data-level="4.5" data-path="results.html"><a href="results.html#caribou-habitat-analysis"><i class="fa fa-check"></i><b>4.5</b> Caribou Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="discussion.html"><a href="discussion.html#predictor-variables-1"><i class="fa fa-check"></i><b>5.1</b> Predictor Variables</a></li>
+<li class="chapter" data-level="5.2" data-path="discussion.html"><a href="discussion.html#accuracy"><i class="fa fa-check"></i><b>5.2</b> Accuracy</a></li>
+<li class="chapter" data-level="5.3" data-path="discussion.html"><a href="discussion.html#caribou-analysis"><i class="fa fa-check"></i><b>5.3</b> Caribou Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i><b>6</b> Acknowledgements</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</h1>
+<p class="author"><em>Alex Bastyr and Nicholas Coops</em></p>
+<p class="date"><em>2023-03-27</em></p>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The mountain pine beetle (MPB), Dendroctonus ponderosae, is a native wood-boring insect to pine forests in Western North America. The MPB attacks a wide range of pine trees and their population periodically erupts causing large-scale outbreaks. In the late 1990s, the most recent outbreak of MPB in British Columbia began and resulted in the death of more than 18 million ha of pine forests by the year 2011 <span class="citation">(<a href="#ref-bleiker2019" role="doc-biblioref">Bleiker et al. 2019</a>)</span>. The scale and level of tree mortality associated with this outbreak was attributed to the continuous geographic and host range expansion of the mountain pine beetle into previously undisturbed forests <span class="citation">(<a href="#ref-bleiker2019" role="doc-biblioref">Bleiker et al. 2019</a>; <a href="#ref-cooke2017" role="doc-biblioref">Cooke and Carroll 2017</a>; <a href="#ref-hicke2006" role="doc-biblioref">Hicke et al. 2006</a>)</span>. In addition to this outbreak, concern for the potential MPB range expansion into the boreal and eastern pine forests grew, as the MPB had spread from its preferred lodgepole pine (Pinus Contorta) host and began successfully attacking and reproducing in jack pine (Pinus Banksiana), a transcontinental pine species <span class="citation">(<a href="#ref-cooke2017" role="doc-biblioref">Cooke and Carroll 2017</a>; <a href="#ref-cullingham2011" role="doc-biblioref">Cullingham et al. 2011</a>)</span>. To control MPB populations and slow the spread of infestation, various mitigation and management strategies are required, this includes sanitation harvesting to remove infested trees, salving logging (clear cut) operations, prescribed burns, and the use of attractants, repellants and insecticides <span class="citation">(<a href="#ref-coops2008" role="doc-biblioref">Coops et al. 2008</a>; <a href="#ref-fettig2014" role="doc-biblioref">Fettig et al. 2014</a>; <a href="#ref-gillette2014" role="doc-biblioref">Gillette et al. 2014</a>; <a href="#ref-lindenmayer2012" role="doc-biblioref">Lindenmayer, Burton, and Franklin 2012</a>; <a href="#ref-six2014" role="doc-biblioref">Six, Biber, and Long 2014</a>)</span>.</p>
+<p>MPB outbreaks have significant impacts on forest structure and ecosystem services (i.e., timber supply, water supply, scenic beauty, carbon storage) <span class="citation">(<a href="#ref-dhar2016" role="doc-biblioref">Dhar, Parrott, and Heckbert 2016</a>)</span>. MBP infestation alters overstory forest cover, decreasing canopy cover and creating canopy gaps, which has cascading effects on the understory vegetation, resulting in increased light penetration and reduced snow interception <span class="citation">(<a href="#ref-chan-mcleod2006" role="doc-biblioref">Chan-McLeod 2006</a>; <a href="#ref-fornwalt2018" role="doc-biblioref">Fornwalt et al. 2018</a>; <a href="#ref-saab2014" role="doc-biblioref">Saab et al. 2014</a>)</span>. These ecological changes in pine forests, following MPB outbreaks have important implications and effects on wildlife populations and their habitats <span class="citation">(<a href="#ref-saab2014" role="doc-biblioref">Saab et al. 2014</a>)</span>. In particular MPB outbreaks affect Woodland caribou (Rangifer tarandus), which are a designated species-at-risk in Canada <span class="citation">(<a href="#ref-canada2012" role="doc-biblioref">Canada 2012</a>)</span> that require large tracts of low-productivity coniferous forests characterized by low densities of other ungulates and wolves in order to sustain healthy populations <span class="citation">(<a href="#ref-festa-bianchet2011" role="doc-biblioref">Festa-Bianchet et al. 2011</a>)</span>. The preferred woodland caribou habitat is characterized by mature, open canopy coniferous stands - the selection for these stands is in part related to the stands structure allowing for the facilitation and growth of arboreal and terrestrial lichen mats which are important food sources for caribou to forage during winter months <span class="citation">(<a href="#ref-cichowski2022" role="doc-biblioref">Cichowski et al. 2022</a>; <a href="#ref-festa-bianchet2011" role="doc-biblioref">Festa-Bianchet et al. 2011</a>; <a href="#ref-rapai2017" role="doc-biblioref">Rapai, McColl, and McMullin 2017</a>; <a href="#ref-rudolph2019" role="doc-biblioref">Rudolph, MacNearney, and Finnegan 2019</a>; <a href="#ref-russell2019" role="doc-biblioref">Russell and Johnson 2019</a>)</span>.</p>
+<p>Remote sensing technology is a useful tool that allows for the acquisition of information about the earths surface. Remotely sensed data is available at a variety of spatial and temporal resolutions <span class="citation">(<a href="#ref-lechner2020" role="doc-biblioref">Lechner, Foody, and Boyd 2020</a>)</span>. Research in the field of remote sensing has benefited from the trend of large, data-analysis ready, remotely sensed datasets to be free and open-access for research <span class="citation">(<a href="#ref-lechner2020" role="doc-biblioref">Lechner, Foody, and Boyd 2020</a>)</span>. A notable example being the complete archive from the Landsat series of satellites dating back to 1972, which provides over 50 years of Earth observation data <span class="citation">(<a href="#ref-white2014a" role="doc-biblioref">Joanne C. White and Wulder 2014</a>)</span>. Remote sensing has become an essential tool in the fields of forest ecology and management <span class="citation">(<a href="#ref-kwok2018" role="doc-biblioref">Kwok 2018</a>; <a href="#ref-lechner2020" role="doc-biblioref">Lechner, Foody, and Boyd 2020</a>)</span>. Applications for remote sensing in forest ecology include updating forest inventories <span class="citation">(<a href="#ref-shang2020" role="doc-biblioref">Shang et al. 2020</a>)</span>, measuring forest structure <span class="citation">(<a href="#ref-lim2003" role="doc-biblioref">Lim et al. 2003</a>)</span> and characterizing forest habitat structure <span class="citation">(<a href="#ref-guo2017" role="doc-biblioref">Guo et al. 2017</a>)</span>, mapping the presence and distribution of tree species <span class="citation">(<a href="#ref-fassnacht2016" role="doc-biblioref">Fassnacht et al. 2016</a>; <a href="#ref-hermosilla2022" role="doc-biblioref">Hermosilla et al. 2022</a>; <a href="#ref-thompson2015" role="doc-biblioref">Thompson et al. 2015</a>)</span>, monitoring forest health <span class="citation">(<a href="#ref-lausch2016" role="doc-biblioref">Lausch et al. 2016</a>)</span> and in the detection, mapping and monitoring of insect outbreaks <span class="citation">(<a href="#ref-wulder2006" role="doc-biblioref">Wulder et al. 2006</a>)</span> among others.</p>
+<p>The ecological changes to pine forests following MPB outbreaks impacts the range and abundance of this key woodland caribou habitat. To understand the future risks posed by the MPB to caribou in Canada, and to inform future species-at-risk management strategies, it is imperative to understand the current conditions of key caribou habitat. The primary objective of this research is to develop high spatial resolution, tree species prediction, for key overstory tree species found in MPB-impacted ecosystems across the entire caribou range in western Canada (in Alberta, British Columbia and the Yukon). Key overstory tree species are individual species of pine, spruce and deciduous. The resultant species layers produced will provide fine scale species information for managers and researchers to facilitate trade-offs between species-at-risk management, MPB mitigation efforts and timber extraction.</p>
+<hr />
+<p><img src="images/FRI_banner.jpg" /></p>
+
+<pre><code>#&gt; &lt;STYLE type=&#39;text/css&#39; scoped&gt;
+#&gt; PRE.fansi SPAN {padding-top: .25em; padding-bottom: .25em};
+#&gt; &lt;/STYLE&gt;</code></pre>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bleiker2019" class="csl-entry">
+Bleiker, Katherine Patricia, Celine Boisvenue, Elizabeth Campbell, Barry J. Cooke, Nadir Erbilgin, R. F. Friberg, K. J. Lewis, Bradley Stennes, Chris Stockdale, and C. M. Whitehouse. 2019. <em>Risk Assessment of the Threat of Mountain Pine Beetle to Canada’s Boreal and Eastern Pine Forests.</em>
+</div>
+<div id="ref-canada2012" class="csl-entry">
+Canada, Environment. 2012. <span>“Recovery Strategy for the Woodland Caribou (Rangifer Tarandus Caribou), Boreal Population, in Canada.”</span>
+</div>
+<div id="ref-chan-mcleod2006" class="csl-entry">
+Chan-McLeod, Ann C. Allaye. 2006. <span>“A Review and Synthesis of the Effects of Unsalvaged Mountain-Pine-Beetle-Attacked Stands on Wildlife and Implications for Forest Management.”</span> <em>Journal of Ecosystems and Management</em> 7 (2).
+</div>
+<div id="ref-cichowski2022" class="csl-entry">
+Cichowski, Deborah, Glenn D. Sutherland, R. Scott McNay, and Randy Sulyma. 2022. <span>“Direct and Indirect Effects of Habitat Disturbances on Caribou Terrestrial Forage Lichens in Montane Forests of British Columbia.”</span> <em>Forests 2022, Vol. 13, Page 251</em> 13 (2): 251. <a href="https://doi.org/10.3390/F13020251">https://doi.org/10.3390/F13020251</a>.
+</div>
+<div id="ref-cooke2017" class="csl-entry">
+Cooke, Barry J., and Allan L. Carroll. 2017. <span>“Predicting the Risk of Mountain Pine Beetle Spread to Eastern Pine Forests: Considering Uncertainty in Uncertain Times.”</span> <em>Forest Ecology and Management</em> 396 (July): 11–25. <a href="https://doi.org/10.1016/J.FORECO.2017.04.008">https://doi.org/10.1016/J.FORECO.2017.04.008</a>.
+</div>
+<div id="ref-coops2008" class="csl-entry">
+Coops, Nicholas C., Joleen A. Timko, Michael A. Wulder, Joanne C. White, and Stephanie M. Ortlepp. 2008. <span>“Investigating the Effectiveness of Mountain Pine Beetle Mitigation Strategies.”</span> <em>International Journal of Pest Management</em> 54 (2): 151–65.
+</div>
+<div id="ref-cullingham2011" class="csl-entry">
+Cullingham, Catherine I., Janice E. K. Cooke, Sophie Dang, Corey S. Davis, Barry J. Cooke, and David W. Coltman. 2011. <span>“Mountain Pine Beetle Host‐range Expansion Threatens the Boreal Forest.”</span> <em>Molecular Ecology</em> 20 (10): 2157–71.
+</div>
+<div id="ref-dhar2016" class="csl-entry">
+Dhar, Amalesh, Lael Parrott, and Scott Heckbert. 2016. <span>“Consequences of Mountain Pine Beetle Outbreak on Forest Ecosystem Services in Western Canada.”</span> <em>Canadian Journal of Forest Research</em> 46 (8): 987–99.
+</div>
+<div id="ref-fassnacht2016" class="csl-entry">
+Fassnacht, Fabian Ewald, Hooman Latifi, Krzysztof Stereńczak, Aneta Modzelewska, Michael Lefsky, Lars T. Waser, Christoph Straub, and Aniruddha Ghosh. 2016. <span>“Review of Studies on Tree Species Classification from Remotely Sensed Data.”</span> <em>Remote Sensing of Environment</em> 186: 64–87. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2016.08.013">https://doi.org/10.1016/j.rse.2016.08.013</a>.
+</div>
+<div id="ref-festa-bianchet2011" class="csl-entry">
+Festa-Bianchet, M., J. C. Ray, S. Boutin, S. D. Côté, and A. Gunn. 2011. <span>“Conservation of Caribou (Rangifer Tarandus) in Canada: An Uncertain Future1.”</span> <em>Canadian Journal of Zoology</em> 89 (5): 419–34. <a href="https://doi.org/10.1139/Z11-025/ASSET/IMAGES/Z11-025TAB3.GIF">https://doi.org/10.1139/Z11-025/ASSET/IMAGES/Z11-025TAB3.GIF</a>.
+</div>
+<div id="ref-fettig2014" class="csl-entry">
+Fettig, Christopher J., Kenneth E. Gibson, A. Steven Munson, and José F. Negrón. 2014. <span>“Cultural Practices for Prevention and Mitigation of Mountain Pine Beetle Infestations.”</span> <em>Forest Science</em> 60 (3): 450–63.
+</div>
+<div id="ref-fornwalt2018" class="csl-entry">
+Fornwalt, Paula J., Charles C. Rhoades, Robert M. Hubbard, Rebecca L. Harris, Akasha M. Faist, and William D. Bowman. 2018. <span>“Short-Term Understory Plant Community Responses to Salvage Logging in Beetle-Affected Lodgepole Pine Forests.”</span> <em>Forest Ecology and Management</em> 409: 84–93.
+</div>
+<div id="ref-gillette2014" class="csl-entry">
+Gillette, Nancy E., David L. Wood, Sarah J. Hines, Justin B. Runyon, and José F. Negrón. 2014. <span>“The Once and Future Forest: Consequences of Mountain Pine Beetle Treatment Decisions.”</span> <em>Forest Science</em> 60 (3): 527–38.
+</div>
+<div id="ref-guo2017" class="csl-entry">
+Guo, Xuan, Nicholas C. Coops, Piotr Tompalski, Scott E. Nielsen, Christopher W. Bater, and J. John Stadt. 2017. <span>“Regional Mapping of Vegetation Structure for Biodiversity Monitoring Using Airborne Lidar Data.”</span> <em>Ecological Informatics</em> 38: 50–61. https://doi.org/<a href="https://doi.org/10.1016/j.ecoinf.2017.01.005">https://doi.org/10.1016/j.ecoinf.2017.01.005</a>.
+</div>
+<div id="ref-hermosilla2022" class="csl-entry">
+Hermosilla, Txomin, Alex Bastyr, Nicholas C. Coops, Joanne C. White, and Michael A. Wulder. 2022. <span>“Mapping the Presence and Distribution of Tree Species in Canada’s Forested Ecosystems.”</span> <em>Remote Sensing of Environment</em> 282: 113276.
+</div>
+<div id="ref-hicke2006" class="csl-entry">
+Hicke, Jeffrey A., Jesse A. Logan, James Powell, and Dennis S. Ojima. 2006. <span>“Changing Temperatures Influence Suitability for Modeled Mountain Pine Beetle (Dendroctonus Ponderosae) Outbreaks in the Western United States.”</span> <em>Journal of Geophysical Research: Biogeosciences</em> 111 (G2).
+</div>
+<div id="ref-kwok2018" class="csl-entry">
+Kwok, Roberta. 2018. <span>“Ecology’s Remote-Sensing Revolution.”</span> <em>Nature</em> 556 (7699): 137–38.
+</div>
+<div id="ref-lausch2016" class="csl-entry">
+Lausch, Angela, Stefan Erasmi, Douglas J. King, Paul Magdon, and Marco Heurich. 2016. <span>“Understanding Forest Health with Remote Sensing-Part I—a Review of Spectral Traits, Processes and Remote-Sensing Characteristics.”</span> <em>Remote Sensing</em> 8 (12): 1029.
+</div>
+<div id="ref-lechner2020" class="csl-entry">
+Lechner, Alex M., Giles M. Foody, and Doreen S. Boyd. 2020. <span>“Applications in Remote Sensing to Forest Ecology and Management.”</span> <em>One Earth</em> 2 (5): 405–12. https://doi.org/<a href="https://doi.org/10.1016/j.oneear.2020.05.001">https://doi.org/10.1016/j.oneear.2020.05.001</a>.
+</div>
+<div id="ref-lim2003" class="csl-entry">
+Lim, Kevin, Paul Treitz, Michael Wulder, Benoît St-Onge, and Martin Flood. 2003. <span>“LiDAR Remote Sensing of Forest Structure.”</span> <em>Progress in Physical Geography</em> 27 (1): 88–106.
+</div>
+<div id="ref-lindenmayer2012" class="csl-entry">
+Lindenmayer, David B., Philip J. Burton, and Jerry F. Franklin. 2012. <em>Salvage Logging and Its Ecological Consequences</em>. Island Press.
+</div>
+<div id="ref-rapai2017" class="csl-entry">
+Rapai, Sean B., Duncan McColl, and Richard Troy McMullin. 2017. <span>“Examining the Role of Terrestrial Lichen Transplants in Restoring Woodland Caribou Winter Habitat.”</span> <em>Https://Doi.org/10.5558/Tfc2017-029</em> 93 (3): 204–12. <a href="https://doi.org/10.5558/TFC2017-029">https://doi.org/10.5558/TFC2017-029</a>.
+</div>
+<div id="ref-rudolph2019" class="csl-entry">
+Rudolph, Tyler D., Doug MacNearney, and Laura Finnegan. 2019. <span>“Lost in Translation? Insights into Caribou Habitat Selection from Forest Inventory Data.”</span> <em>Facets</em> 2019 (4): 531–50. <a href="https://doi.org/10.1139/FACETS-2018-0050/SUPPL_FILE/FACETS-2018-0050_SUPPLEMENT1.DOCX">https://doi.org/10.1139/FACETS-2018-0050/SUPPL_FILE/FACETS-2018-0050_SUPPLEMENT1.DOCX</a>.
+</div>
+<div id="ref-russell2019" class="csl-entry">
+Russell, Kelsey L. M., and Chris J. Johnson. 2019. <span>“Post-Fire Dynamics of Terrestrial Lichens: Implications for the Recovery of Woodland Caribou Winter Range.”</span> <em>Forest Ecology and Management</em> 434 (February): 1–17. <a href="https://doi.org/10.1016/J.FORECO.2018.12.004">https://doi.org/10.1016/J.FORECO.2018.12.004</a>.
+</div>
+<div id="ref-saab2014" class="csl-entry">
+Saab, Victoria A., Quresh S. Latif, Mary M. Rowland, Tracey N. Johnson, Anna D. Chalfoun, Steven W. Buskirk, Joslin E. Heyward, and Matthew A. Dresser. 2014. <span>“Ecological Consequences of Mountain Pine Beetle Outbreaks for Wildlife in Western North American Forests.”</span> <em>Forest Science</em> 60 (3): 539–59. <a href="https://doi.org/10.5849/FORSCI.13-022">https://doi.org/10.5849/FORSCI.13-022</a>.
+</div>
+<div id="ref-shang2020" class="csl-entry">
+Shang, Chen, Nicholas C. Coops, Michael A. Wulder, Joanne C. White, and Txomin Hermosilla. 2020. <span>“Update and Spatial Extension of Strategic Forest Inventories Using Time Series Remote Sensing and Modeling.”</span> <em>International Journal of Applied Earth Observation and Geoinformation</em> 84: 101956. https://doi.org/<a href="https://doi.org/10.1016/j.jag.2019.101956">https://doi.org/10.1016/j.jag.2019.101956</a>.
+</div>
+<div id="ref-six2014" class="csl-entry">
+Six, Diana L., Eric Biber, and Elisabeth Long. 2014. <span>“Management for Mountain Pine Beetle Outbreak Suppression: Does Relevant Science Support Current Policy?”</span> <em>Forests</em> 5 (1): 103–33.
+</div>
+<div id="ref-thompson2015" class="csl-entry">
+Thompson, Shanley D., Trisalyn A. Nelson, Joanne C. White, and Michael A. Wulder. 2015. <span>“Mapping Dominant Tree Species over Large Forested Areas Using Landsat Best-Available-Pixel Image Composites.”</span> <em>Canadian Journal of Remote Sensing</em> 41 (3): 203–18. <a href="https://doi.org/10.1080/07038992.2015.1065708">https://doi.org/10.1080/07038992.2015.1065708</a>.
+</div>
+<div id="ref-white2014a" class="csl-entry">
+White, Joanne C., and Michael A. Wulder. 2014. <span>“The Landsat Observation Record of Canada: 1972–2012.”</span> <em>Canadian Journal of Remote Sensing</em> 39 (6): 455–67. <a href="https://doi.org/10.5589/m13-053">https://doi.org/10.5589/m13-053</a>.
+</div>
+<div id="ref-wulder2006" class="csl-entry">
+Wulder, Michael A., Caren C. Dymond, Joanne C. White, Bob Erickson, L. Safranyik, and B. Wilson. 2006. <span>“Detection, Mapping, and Monitoring of the Mountain Pine Beetle.”</span> <em>The Mountain Pine Beetle: A Synthesis of Biology, Management, and Impacts on Lodgepole Pine Natural Resources Canada, Canadian Forest Service, Pacific Forestry Centre, Victoria, BC</em>, 123–54.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="data.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

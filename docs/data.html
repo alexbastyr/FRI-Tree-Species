@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Data | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</title>
+  <meta name="description" content="2 Data | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Data | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Data | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  
+  
+  
+
+<meta name="author" content="Alex Bastyr and Nicholas Coops" />
+
+
+<meta name="date" content="2023-03-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="methods.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data.html"><a href="data.html#forest-inventory-data"><i class="fa fa-check"></i><b>2.1</b> Forest Inventory Data</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data.html"><a href="data.html#alberta"><i class="fa fa-check"></i><b>2.1.1</b> Alberta</a></li>
+<li class="chapter" data-level="2.1.2" data-path="data.html"><a href="data.html#british-columbia-forest-inventory"><i class="fa fa-check"></i><b>2.1.2</b> British Columbia Forest Inventory</a></li>
+<li class="chapter" data-level="2.1.3" data-path="data.html"><a href="data.html#yukon-forest-inventory"><i class="fa fa-check"></i><b>2.1.3</b> Yukon Forest Inventory</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data.html"><a href="data.html#targeted-forest-data-sets"><i class="fa fa-check"></i><b>2.2</b> Targeted Forest Data Sets</a></li>
+<li class="chapter" data-level="2.3" data-path="data.html"><a href="data.html#landsat-derived-data"><i class="fa fa-check"></i><b>2.3</b> Landsat-derived data</a></li>
+<li class="chapter" data-level="2.4" data-path="data.html"><a href="data.html#climate-data"><i class="fa fa-check"></i><b>2.4</b> Climate Data</a></li>
+<li class="chapter" data-level="2.5" data-path="data.html"><a href="data.html#phenology-data"><i class="fa fa-check"></i><b>2.5</b> Phenology Data</a></li>
+<li class="chapter" data-level="2.6" data-path="data.html"><a href="data.html#topographic-data"><i class="fa fa-check"></i><b>2.6</b> Topographic Data</a></li>
+<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html#caribou-data"><i class="fa fa-check"></i><b>2.7</b> Caribou Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="methods.html"><a href="methods.html#tile-system"><i class="fa fa-check"></i><b>3.1</b> Tile System</a></li>
+<li class="chapter" data-level="3.2" data-path="methods.html"><a href="methods.html#sample-filtering-and-selection"><i class="fa fa-check"></i><b>3.2</b> Sample Filtering and Selection</a></li>
+<li class="chapter" data-level="3.3" data-path="methods.html"><a href="methods.html#predictor-variables"><i class="fa fa-check"></i><b>3.3</b> Predictor Variables</a></li>
+<li class="chapter" data-level="3.4" data-path="methods.html"><a href="methods.html#local-random-forest-models"><i class="fa fa-check"></i><b>3.4</b> Local Random Forest Models</a></li>
+<li class="chapter" data-level="3.5" data-path="methods.html"><a href="methods.html#accuracy-assessment"><i class="fa fa-check"></i><b>3.5</b> Accuracy Assessment</a></li>
+<li class="chapter" data-level="3.6" data-path="methods.html"><a href="methods.html#species-at-risk-habitat-analysis"><i class="fa fa-check"></i><b>3.6</b> Species at Risk Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="results.html"><a href="results.html#sample-filtering-and-selection-1"><i class="fa fa-check"></i><b>4.1</b> Sample Filtering and selection</a></li>
+<li class="chapter" data-level="4.2" data-path="results.html"><a href="results.html#relative-importance-of-predictor-variables"><i class="fa fa-check"></i><b>4.2</b> Relative Importance of predictor variables</a></li>
+<li class="chapter" data-level="4.3" data-path="results.html"><a href="results.html#accuracy-assessment-confusion-matrix"><i class="fa fa-check"></i><b>4.3</b> Accuracy Assessment: Confusion Matrix</a></li>
+<li class="chapter" data-level="4.4" data-path="results.html"><a href="results.html#leading-tree-species-map"><i class="fa fa-check"></i><b>4.4</b> Leading Tree Species Map</a></li>
+<li class="chapter" data-level="4.5" data-path="results.html"><a href="results.html#caribou-habitat-analysis"><i class="fa fa-check"></i><b>4.5</b> Caribou Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="discussion.html"><a href="discussion.html#predictor-variables-1"><i class="fa fa-check"></i><b>5.1</b> Predictor Variables</a></li>
+<li class="chapter" data-level="5.2" data-path="discussion.html"><a href="discussion.html#accuracy"><i class="fa fa-check"></i><b>5.2</b> Accuracy</a></li>
+<li class="chapter" data-level="5.3" data-path="discussion.html"><a href="discussion.html#caribou-analysis"><i class="fa fa-check"></i><b>5.3</b> Caribou Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i><b>6</b> Acknowledgements</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Data<a href="data.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>A summary of the data sources used in this research (Table 1) as well as their derived metrics (Table 3) are listed below, with further details discussed in subsequent sections.</p>
+<p><strong>Table 1: List of datasets and their specifications utilized in this research</strong> <img src="images/data_table.jpg" /></p>
+<div id="forest-inventory-data" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Forest Inventory Data<a href="data.html#forest-inventory-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="alberta" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Alberta<a href="data.html#alberta" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Two Alberta inventory datasets were utilized to obtain tree species distribution information, the Alberta Vegetation Inventory (AVI) and the Alberta Biodiversity Monitoring Institute (ABMI). The AVI is an aerial imagery-based inventory developed to identify the type, extent and condition of forest vegetation in Alberta. Aerial imagery is interpreted in a 3D digital environment to delineate homogeneous forest polygons over crown lands. Polygon attributes are assigned to each polygon via interpretation, ancillary data, and field visits. Attributes include species composition, crown closure class, height, year of origin, structure, condition and productivity class. Tree species composition in a polygon are captured (to a max of 5) in decreasing order of occurrence based on percent crown closure.</p>
+<p>The ABMI is a long-term monitoring program that tracks biodiversity in Alberta. ABMI maintains 1656 permanent samples sites spaced evenly across a systematic 20-km grid, at each sample site ground surveys are conducted every five years. These permanent sample sites are supported by the mapping and analysis of 3 km (north to south) by 7 km (east to west) photo-plots surrounding each site. Through interpretation each ABMI photo-plot is delineated into homogeneous polygons, which are supplemented with attribute information. For treed polygons attribute information on management status, stand structure, year of origin, canopy density class, height, species composition and abundance, understory characteristics and disturbances are available.</p>
+</div>
+<div id="british-columbia-forest-inventory" class="section level3 hasAnchor" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> British Columbia Forest Inventory<a href="data.html#british-columbia-forest-inventory" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Tree species distribution data for British Columbia was sourced from the current vegetation resource inventory (VRI). The VRI is a photo-based, two step vegetation inventory program that consists of manually delineating homogeneous forest stands via photo interpretation followed by a ground sampling stage. Through interpretation, a range of forest attribute information is available for each delineated polygons this includes species composition (up to six species recorded for each stand), height, canopy closure, age, volume, basal area and stem density.</p>
+</div>
+<div id="yukon-forest-inventory" class="section level3 hasAnchor" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> Yukon Forest Inventory<a href="data.html#yukon-forest-inventory" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The Yukon has two available vegetation inventory data sets. One vegetation inventory dataset is available at a 1:5,000 scale for ‘operation level’ use has limited coverage over the Haines Junction and south-central regions of the Yukon. The other vegetation inventory is available at a 1:40,000 scale for ‘management level’ use and has an areal extent that covers a majority of the territory. Both datasets are inventory-based programs centred around aerial photo interpretation to divide the land into homogenous units. To supplement the aerial photo interpretation secondary sources such as ground samples, air/ground calls, regeneration surveys, and permanent sample plot measurements, are included. Within each polygon, detailed forest attributes on species composition, stand height, crown closure and stand age are available.</p>
+</div>
+</div>
+<div id="targeted-forest-data-sets" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Targeted Forest Data Sets<a href="data.html#targeted-forest-data-sets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Limber and Whitebark Pine plot data was sourced from the Alberta Conservation Information Management System (ACIMS). The dataset contains 255 survey transects of varying length across Alberta and British Columbia. Each transect, contain information related to overstory and understory species composition, tree health and disease (specific to limber or whitebark pine), diameter at breast height, and tree regeneration.</p>
+</div>
+<div id="landsat-derived-data" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Landsat-derived data<a href="data.html#landsat-derived-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A 2020 annual Landsat best-available-pixel (BAP) composite image <span class="citation">(<a href="#ref-white2014" role="doc-biblioref">J. C. White et al. 2014</a>)</span> and its associated disturbance history, generated following the Composite2Change (C2C) approach<span class="citation">(<a href="#ref-hermosilla2016" role="doc-biblioref">Hermosilla et al. 2016</a>)</span> were used to conduct tree species classification. The C2C approach produces annual, gap-free, surface-reflectance image composites with a 30-m spatial resolution as well as the detection and characterization of forest disturbance information from 1985 to present <span class="citation">(<a href="#ref-hermosilla2015b" role="doc-biblioref">Hermosilla et al. 2015b</a>)</span>. In summary, the C2C approach uses scoring functions as defined in <span class="citation">J. C. White et al. (<a href="#ref-white2014" role="doc-biblioref">2014</a>)</span>, to rank and select optimum pixel observations from all available atmospherically-corrected Landsat images <span class="citation">(<a href="#ref-masek2006" role="doc-biblioref">Masek et al. 2006</a>; <a href="#ref-schmidt2013" role="doc-biblioref">Schmidt et al. 2013</a>)</span> to produce composites. These initial composites are then further refined by removing anomalous spectral values through a spike detection algorithm <span class="citation">(<a href="#ref-kennedy2010" role="doc-biblioref">Kennedy, Yang, and Cohen 2010</a>)</span> and data gaps are infilled with proxy values using a spectral trend analysis<span class="citation">(<a href="#ref-hermosilla2015a" role="doc-biblioref">Hermosilla et al. 2015a</a>)</span>. Temporal trends and changes across BAP composites are identified using a bottom-up breakpoint selection algorithm <span class="citation">(<a href="#ref-keogh2001" role="doc-biblioref">Keogh et al. 2001</a>)</span> over Normalized Burn Ratio (NBR) values <span class="citation">(<a href="#ref-key2006" role="doc-biblioref">Key and Benson 2006</a>)</span>. Through the temporal analysis, detected changes are attributed to a change type based on their spectral, temporal, and geometrical characteristics using a Random Forests classifier <span class="citation">(<a href="#ref-hermosilla2016" role="doc-biblioref">Hermosilla et al. 2016</a>)</span>.</p>
+<p>Canopy cover data for the year 2020 was sourced at a 30 m resolution from the National Terrestrial Ecosystem Monitoring System (NTEMS) dataset. Matasci et al. (2018b) generated annual Landsat-derived forest structural layers from 1985 to present across the forested ecosystems of Canada <span class="citation">(<a href="#ref-matasci2018a" role="doc-biblioref">Matasci, Hermosilla, Wulder, White, Coops, Hobart, and Zald 2018</a>; <a href="#ref-matasci2018b" role="doc-biblioref">Matasci, Hermosilla, Wulder, White, Coops, Hobart, Bolton, et al. 2018</a>)</span>. Their approach utilized data from seven airborne laser scanning (ALS) collection campaigns to derive ALS metrics of height and canopy cover, as well as area-based inventory estimates such as biomass. A random forest k-NN imputation method <span class="citation">(<a href="#ref-crookston2008" role="doc-biblioref">Crookston and Finley 2008</a>)</span> was applied to extrapolate these ALS and area-based metrics across Canada, at a 30-m resolution.</p>
+</div>
+<div id="climate-data" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Climate Data<a href="data.html#climate-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Climate data was accessed and downloaded from the ClimateNA software <span class="citation">(<a href="#ref-wang2016" role="doc-biblioref">Wang et al. 2016</a>)</span>. The data downloaded was used to generate spatial climate layers with monthly precipitation and temperature (i.e., minimum and maximum) normals, for the period 1991-2020, at a 100-m spatial resolution. The monthly climate layers produced, were further processed to compute annual average minimum and maximum temperature, and total precipitation values for each pixel.</p>
+</div>
+<div id="phenology-data" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Phenology Data<a href="data.html#phenology-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Phenology data was sourced from the Multi-Source Land Surface Phenology (MS-LSP) algorithm <span class="citation">(<a href="#ref-bolton2020" role="doc-biblioref">Bolton et al. 2020</a>)</span>. The MS-LSP has a temporal extent of 2016-2019 and provides land surface phenology data at a spatial resolution of 30-m over North America. The MS-LSP utilizes time series of vegetation indices to characterize the timing and magnitude of phenophase transitions and seasonality. From the product, a complete set of phenophase metrics were derived. The product year of 2019 was selected, as it most closely corresponds with the year of the Landsat composite utilized. Data gaps in the 2019 MS-LSP product, were filled by prior product year data and through infilling.</p>
+</div>
+<div id="topographic-data" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> Topographic Data<a href="data.html#topographic-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Topographic metrics were derived from the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) global digital elevation model (GDEM) version 3 (v3) <span class="citation">(<a href="#ref-gesch2016" role="doc-biblioref">Gesch et al. 2016</a>)</span>. The first version of the ASTER GDEM released in 2009 was generated using stereo-pair images collected by the ASTER instrument onboard the Terra satellite <span class="citation">(<a href="#ref-fujisada2011" role="doc-biblioref">Fujisada, Urai, and Iwasaki 2011</a>)</span>. Released in 2019, the ASTER GDEM v3 was produced using additional stereo-pair images and an updated production algorithm. In comparison to its predecessors the ASTER GDEM v3 has an improved ~30-m spatial resolution, and horizontal and vertical accuracies, expanded coverage and less artifacts.</p>
+</div>
+<div id="caribou-data" class="section level2 hasAnchor" number="2.7">
+<h2><span class="header-section-number">2.7</span> Caribou Data<a href="data.html#caribou-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Caribou home range data was sourced from open-access provincial and territorial datasets for Alberta, British Columbia and the Yukon. Caribou herd information was collected from radio collared caribou to establish population and recruitment estimates, regular caribou population survey and movement monitoring.</p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bolton2020" class="csl-entry">
+Bolton, Douglas K., Josh M. Gray, Eli K. Melaas, Minkyu Moon, Lars Eklundh, and Mark A. Friedl. 2020. <span>“Continental-Scale Land Surface Phenology from Harmonized Landsat 8 and Sentinel-2 Imagery.”</span> <em>Remote Sensing of Environment</em> 240: 111685. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2020.111685">https://doi.org/10.1016/j.rse.2020.111685</a>.
+</div>
+<div id="ref-crookston2008" class="csl-entry">
+Crookston, Nicholas L., and Andrew O. Finley. 2008. <span>“yaImpute: An R Package for kNN Imputation.”</span> <em>Journal of Statistical Software</em> 23: 1–16.
+</div>
+<div id="ref-fujisada2011" class="csl-entry">
+Fujisada, Hiroyuki, Minoru Urai, and Akira Iwasaki. 2011. <span>“Advanced Methodology for ASTER DEM Generation.”</span> <em>IEEE Transactions on Geoscience and Remote Sensing</em> 49 (12): 5080–91.
+</div>
+<div id="ref-gesch2016" class="csl-entry">
+Gesch, D., M. Oimoen, J. Danielson, and David Meyer. 2016. <span>“Validation of the ASTER Global Digital Elevation Model Version 3 over the Conterminous United States.”</span> <em>The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences</em> 41: 143.
+</div>
+<div id="ref-hermosilla2015a" class="csl-entry">
+Hermosilla, Txomin, Michael A. Wulder, Joanne C. White, Nicholas C. Coops, and Geordie W. Hobart. 2015a. <span>“An Integrated Landsat Time Series Protocol for Change Detection and Generation of Annual Gap-Free Surface Reflectance Composites.”</span> <em>Remote Sensing of Environment</em> 158: 220–34. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2014.11.005">https://doi.org/10.1016/j.rse.2014.11.005</a>.
+</div>
+<div id="ref-hermosilla2015b" class="csl-entry">
+———. 2015b. <span>“Regional Detection, Characterization, and Attribution of Annual Forest Change from 1984 to 2012 Using Landsat-Derived Time-Series Metrics.”</span> <em>Remote Sensing of Environment</em> 170: 121–32. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2015.09.004">https://doi.org/10.1016/j.rse.2015.09.004</a>.
+</div>
+<div id="ref-hermosilla2016" class="csl-entry">
+Hermosilla, Txomin, Michael A. Wulder, Joanne C. White, Nicholas C. Coops, Geordie W. Hobart, and Lorraine B. Campbell. 2016. <span>“Mass Data Processing of Time Series Landsat Imagery: Pixels to Data Products for Forest Monitoring.”</span> <em>International Journal of Digital Earth</em> 9 (11): 1035–54. <a href="https://doi.org/10.1080/17538947.2016.1187673">https://doi.org/10.1080/17538947.2016.1187673</a>.
+</div>
+<div id="ref-kennedy2010" class="csl-entry">
+Kennedy, Robert E., Zhiqiang Yang, and Warren B. Cohen. 2010. <span>“Detecting Trends in Forest Disturbance and Recovery Using Yearly Landsat Time Series: 1. LandTrendr — Temporal Segmentation Algorithms.”</span> <em>Remote Sensing of Environment</em> 114 (12): 2897–2910. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2010.07.008">https://doi.org/10.1016/j.rse.2010.07.008</a>.
+</div>
+<div id="ref-keogh2001" class="csl-entry">
+Keogh, Eamonn, Selina Chu, David Hart, and Michael Pazzani. 2001. <span>“An Online Algorithm for Segmenting Time Series.”</span> In <em>Proceedings 2001 IEEE International Conference on Data Mining</em>, 289–96. IEEE.
+</div>
+<div id="ref-key2006" class="csl-entry">
+Key, Carl H., and Nathan C. Benson. 2006. <span>“Landscape Assessment (LA): Sampling and Analysis Methods.”</span> <em>USDA 963 Forest Service Gen. Tech. Rep. RMRS-GTR-164-CD. Routledge.</em>
+</div>
+<div id="ref-masek2006" class="csl-entry">
+Masek, J. G., E. F. Vermote, N. E. Saleous, R. Wolfe, F. G. Hall, K. F. Huemmrich, Feng Gao, J. Kutler, and Teng-Kui Lim. 2006. <span>“A Landsat Surface Reflectance Dataset for North America, 1990-2000.”</span> <em>IEEE Geoscience and Remote Sensing Letters</em> 3 (1): 68–72. <a href="https://doi.org/10.1109/LGRS.2005.857030">https://doi.org/10.1109/LGRS.2005.857030</a>.
+</div>
+<div id="ref-matasci2018b" class="csl-entry">
+Matasci, Giona, Txomin Hermosilla, Michael A. Wulder, Joanne C. White, Nicholas C. Coops, Geordie W. Hobart, Douglas K. Bolton, Piotr Tompalski, and Christopher W. Bater. 2018. <span>“Three Decades of Forest Structural Dynamics over Canada’s Forested Ecosystems Using Landsat Time-Series and Lidar Plots.”</span> <em>Remote Sensing of Environment</em> 216: 697–714.
+</div>
+<div id="ref-matasci2018a" class="csl-entry">
+Matasci, Giona, Txomin Hermosilla, Michael A. Wulder, Joanne C. White, Nicholas C. Coops, Geordie W. Hobart, and Harold S. J. Zald. 2018. <span>“Large-Area Mapping of Canadian Boreal Forest Cover, Height, Biomass and Other Structural Attributes Using Landsat Composites and Lidar Plots.”</span> <em>Remote Sensing of Environment</em> 209: 90–106.
+</div>
+<div id="ref-schmidt2013" class="csl-entry">
+Schmidt, Gail L., Calli Jenkerson, Jeffrey G. Masek, Eric Vermote, and Feng Gao. 2013. <span>“Landsat Ecosystem Disturbance Adaptive Processing System (LEDAPS) Algorithm Description.”</span> <em>US Department of the Interior, US Geological Survey</em>.
+</div>
+<div id="ref-wang2016" class="csl-entry">
+Wang, Tongli, Andreas Hamann, Dave Spittlehouse, and Carlos Carroll. 2016. <span>“Locally Downscaled and Spatially Customizable Climate Data for Historical and Future Periods for North America.”</span> <em>PLOS ONE</em> 11 (6): e0156720–. <a href="https://doi.org/10.1371/journal.pone.0156720">https://doi.org/10.1371/journal.pone.0156720</a>.
+</div>
+<div id="ref-white2014" class="csl-entry">
+White, J. C., M. A. Wulder, G. W. Hobart, J. E. Luther, T. Hermosilla, P. Griffiths, N. C. Coops, et al. 2014. <span>“Pixel-Based Image Compositing for Large-Area Dense Time Series Applications and Science.”</span> <em>Canadian Journal of Remote Sensing</em> 40 (3): 192–212. <a href="https://doi.org/10.1080/07038992.2014.945827">https://doi.org/10.1080/07038992.2014.945827</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

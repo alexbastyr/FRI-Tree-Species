@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>9 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</title>
+  <meta name="description" content="9 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="9 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="9 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  
+  
+  
+
+<meta name="author" content="Alex Bastyr and Nicholas Coops" />
+
+
+<meta name="date" content="2023-03-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-1.html"/>
+<link rel="next" href="results-1.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data.html"><a href="data.html#forest-inventory-data"><i class="fa fa-check"></i><b>2.1</b> Forest Inventory Data</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data.html"><a href="data.html#alberta"><i class="fa fa-check"></i><b>2.1.1</b> Alberta</a></li>
+<li class="chapter" data-level="2.1.2" data-path="data.html"><a href="data.html#british-columbia-forest-inventory"><i class="fa fa-check"></i><b>2.1.2</b> British Columbia Forest Inventory</a></li>
+<li class="chapter" data-level="2.1.3" data-path="data.html"><a href="data.html#yukon-forest-inventory"><i class="fa fa-check"></i><b>2.1.3</b> Yukon Forest Inventory</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data.html"><a href="data.html#targeted-forest-data-sets"><i class="fa fa-check"></i><b>2.2</b> Targeted Forest Data Sets</a></li>
+<li class="chapter" data-level="2.3" data-path="data.html"><a href="data.html#landsat-derived-data"><i class="fa fa-check"></i><b>2.3</b> Landsat-derived data</a></li>
+<li class="chapter" data-level="2.4" data-path="data.html"><a href="data.html#climate-data"><i class="fa fa-check"></i><b>2.4</b> Climate Data</a></li>
+<li class="chapter" data-level="2.5" data-path="data.html"><a href="data.html#phenology-data"><i class="fa fa-check"></i><b>2.5</b> Phenology Data</a></li>
+<li class="chapter" data-level="2.6" data-path="data.html"><a href="data.html#topographic-data"><i class="fa fa-check"></i><b>2.6</b> Topographic Data</a></li>
+<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html#caribou-data"><i class="fa fa-check"></i><b>2.7</b> Caribou Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="methods.html"><a href="methods.html#tile-system"><i class="fa fa-check"></i><b>3.1</b> Tile System</a></li>
+<li class="chapter" data-level="3.2" data-path="methods.html"><a href="methods.html#sample-filtering-and-selection"><i class="fa fa-check"></i><b>3.2</b> Sample Filtering and Selection</a></li>
+<li class="chapter" data-level="3.3" data-path="methods.html"><a href="methods.html#predictor-variables"><i class="fa fa-check"></i><b>3.3</b> Predictor Variables</a></li>
+<li class="chapter" data-level="3.4" data-path="methods.html"><a href="methods.html#local-random-forest-models"><i class="fa fa-check"></i><b>3.4</b> Local Random Forest Models</a></li>
+<li class="chapter" data-level="3.5" data-path="methods.html"><a href="methods.html#accuracy-assessment"><i class="fa fa-check"></i><b>3.5</b> Accuracy Assessment</a></li>
+<li class="chapter" data-level="3.6" data-path="methods.html"><a href="methods.html#species-at-risk-habitat-analysis"><i class="fa fa-check"></i><b>3.6</b> Species at Risk Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="results.html"><a href="results.html#sample-filtering-and-selection-1"><i class="fa fa-check"></i><b>4.1</b> Sample Filtering and selection</a></li>
+<li class="chapter" data-level="4.2" data-path="results.html"><a href="results.html#relative-importance-of-predictor-variables"><i class="fa fa-check"></i><b>4.2</b> Relative Importance of predictor variables</a></li>
+<li class="chapter" data-level="4.3" data-path="results.html"><a href="results.html#accuracy-assessment-confusion-matrix"><i class="fa fa-check"></i><b>4.3</b> Accuracy Assessment: Confusion Matrix</a></li>
+<li class="chapter" data-level="4.4" data-path="results.html"><a href="results.html#leading-tree-species-map"><i class="fa fa-check"></i><b>4.4</b> Leading Tree Species Map</a></li>
+<li class="chapter" data-level="4.5" data-path="results.html"><a href="results.html#caribou-habitat-analysis"><i class="fa fa-check"></i><b>4.5</b> Caribou Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="discussion.html"><a href="discussion.html#predictor-variables-1"><i class="fa fa-check"></i><b>5.1</b> Predictor Variables</a></li>
+<li class="chapter" data-level="5.2" data-path="discussion.html"><a href="discussion.html#accuracy"><i class="fa fa-check"></i><b>5.2</b> Accuracy</a></li>
+<li class="chapter" data-level="5.3" data-path="discussion.html"><a href="discussion.html#caribou-analysis"><i class="fa fa-check"></i><b>5.3</b> Caribou Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i><b>6</b> Acknowledgements</a></li>
+<li class="chapter" data-level="7" data-path="sec-Introduction.html"><a href="sec-Introduction.html"><i class="fa fa-check"></i><b>7</b> Introduction</a></li>
+<li class="chapter" data-level="8" data-path="data-1.html"><a href="data-1.html"><i class="fa fa-check"></i><b>8</b> Data</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="data-1.html"><a href="data-1.html#sec-forest-inventory-data"><i class="fa fa-check"></i><b>8.1</b> Forest Inventory Data</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="data-1.html"><a href="data-1.html#sec-alberta-forest-inventory-datasets"><i class="fa fa-check"></i><b>8.1.1</b> Alberta</a></li>
+<li class="chapter" data-level="8.1.2" data-path="data-1.html"><a href="data-1.html#sec-bc-forest-inventory-datasets"><i class="fa fa-check"></i><b>8.1.2</b> British Columbia Forest Inventory</a></li>
+<li class="chapter" data-level="8.1.3" data-path="data-1.html"><a href="data-1.html#sec-yukon-forest-inventory-datasets"><i class="fa fa-check"></i><b>8.1.3</b> Yukon Forest Inventory</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="data-1.html"><a href="data-1.html#sec-targeted-forest-dataset"><i class="fa fa-check"></i><b>8.2</b> Targeted Forest Data Sets</a></li>
+<li class="chapter" data-level="8.3" data-path="data-1.html"><a href="data-1.html#sec-landsat-derived-data"><i class="fa fa-check"></i><b>8.3</b> Landsat-derived data</a></li>
+<li class="chapter" data-level="8.4" data-path="data-1.html"><a href="data-1.html#sec-climate-data"><i class="fa fa-check"></i><b>8.4</b> Climate Data</a></li>
+<li class="chapter" data-level="8.5" data-path="data-1.html"><a href="data-1.html#sec-phenology-data"><i class="fa fa-check"></i><b>8.5</b> Phenology Data</a></li>
+<li class="chapter" data-level="8.6" data-path="data-1.html"><a href="data-1.html#sec-topographic-data"><i class="fa fa-check"></i><b>8.6</b> Topographic Data</a></li>
+<li class="chapter" data-level="8.7" data-path="data-1.html"><a href="data-1.html#sec-caribou-data"><i class="fa fa-check"></i><b>8.7</b> Caribou Data</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="methods-1.html"><a href="methods-1.html"><i class="fa fa-check"></i><b>9</b> Methods</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="methods-1.html"><a href="methods-1.html#sec-tile_system"><i class="fa fa-check"></i><b>9.1</b> Tile System</a></li>
+<li class="chapter" data-level="9.2" data-path="methods-1.html"><a href="methods-1.html#sec-sample-filtering-and-selection"><i class="fa fa-check"></i><b>9.2</b> Sample Filtering and Selection</a></li>
+<li class="chapter" data-level="9.3" data-path="methods-1.html"><a href="methods-1.html#sec-predictor-variables"><i class="fa fa-check"></i><b>9.3</b> Predictor Variables</a></li>
+<li class="chapter" data-level="9.4" data-path="methods-1.html"><a href="methods-1.html#sec-random-forest-models"><i class="fa fa-check"></i><b>9.4</b> Local Random Forest Models</a></li>
+<li class="chapter" data-level="9.5" data-path="methods-1.html"><a href="methods-1.html#sec-accuracy-assessment"><i class="fa fa-check"></i><b>9.5</b> Accuracy Assessment</a></li>
+<li class="chapter" data-level="9.6" data-path="methods-1.html"><a href="methods-1.html#sec-habitat-analysis"><i class="fa fa-check"></i><b>9.6</b> Species at Risk Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="results-1.html"><a href="results-1.html"><i class="fa fa-check"></i><b>10</b> Results</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="results-1.html"><a href="results-1.html#sec-sample-filtering-and-selection-results"><i class="fa fa-check"></i><b>10.1</b> Sample Filtering and selection</a></li>
+<li class="chapter" data-level="10.2" data-path="results-1.html"><a href="results-1.html#sec-predictor-variable-importance"><i class="fa fa-check"></i><b>10.2</b> Relative Importance of predictor variables</a></li>
+<li class="chapter" data-level="10.3" data-path="results-1.html"><a href="results-1.html#sec-cm-accuracy-assessment"><i class="fa fa-check"></i><b>10.3</b> Accuracy Assessment: Confusion Matrix</a></li>
+<li class="chapter" data-level="10.4" data-path="results-1.html"><a href="results-1.html#sec-leading-species-map"><i class="fa fa-check"></i><b>10.4</b> Leading Tree Species Map</a></li>
+<li class="chapter" data-level="10.5" data-path="results-1.html"><a href="results-1.html#sec-habitat-analysis-results"><i class="fa fa-check"></i><b>10.5</b> Caribou Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="discussion-1.html"><a href="discussion-1.html"><i class="fa fa-check"></i><b>11</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="discussion-1.html"><a href="discussion-1.html#sec-predictor-variables-discussion"><i class="fa fa-check"></i><b>11.1</b> Predictor Variables</a></li>
+<li class="chapter" data-level="11.2" data-path="discussion-1.html"><a href="discussion-1.html#sec-accuracy"><i class="fa fa-check"></i><b>11.2</b> Accuracy</a></li>
+<li class="chapter" data-level="11.3" data-path="discussion-1.html"><a href="discussion-1.html#sec-caribou-analysis"><i class="fa fa-check"></i><b>11.3</b> Caribou Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="sec-acknowledgements.html"><a href="sec-acknowledgements.html"><i class="fa fa-check"></i><b>12</b> 6 Acknowledgements</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="methods-1" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">9</span> Methods<a href="methods-1.html#methods-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="sec-tile_system" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> Tile System<a href="methods-1.html#sec-tile_system" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="sec-sample-filtering-and-selection" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">9.2</span> Sample Filtering and Selection<a href="methods-1.html#sec-sample-filtering-and-selection" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="sec-predictor-variables" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">9.3</span> Predictor Variables<a href="methods-1.html#sec-predictor-variables" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="sec-random-forest-models" class="section level2 hasAnchor" number="9.4">
+<h2><span class="header-section-number">9.4</span> Local Random Forest Models<a href="methods-1.html#sec-random-forest-models" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="sec-accuracy-assessment" class="section level2 hasAnchor" number="9.5">
+<h2><span class="header-section-number">9.5</span> Accuracy Assessment<a href="methods-1.html#sec-accuracy-assessment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="sec-habitat-analysis" class="section level2 hasAnchor" number="9.6">
+<h2><span class="header-section-number">9.6</span> Species at Risk Habitat Analysis<a href="methods-1.html#sec-habitat-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="results-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

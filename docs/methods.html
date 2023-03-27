@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</title>
+  <meta name="description" content="3 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Methods | Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment" />
+  
+  
+  
+
+<meta name="author" content="Alex Bastyr and Nicholas Coops" />
+
+
+<meta name="date" content="2023-03-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data.html"/>
+<link rel="next" href="results.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data.html"><a href="data.html#forest-inventory-data"><i class="fa fa-check"></i><b>2.1</b> Forest Inventory Data</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data.html"><a href="data.html#alberta"><i class="fa fa-check"></i><b>2.1.1</b> Alberta</a></li>
+<li class="chapter" data-level="2.1.2" data-path="data.html"><a href="data.html#british-columbia-forest-inventory"><i class="fa fa-check"></i><b>2.1.2</b> British Columbia Forest Inventory</a></li>
+<li class="chapter" data-level="2.1.3" data-path="data.html"><a href="data.html#yukon-forest-inventory"><i class="fa fa-check"></i><b>2.1.3</b> Yukon Forest Inventory</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data.html"><a href="data.html#targeted-forest-data-sets"><i class="fa fa-check"></i><b>2.2</b> Targeted Forest Data Sets</a></li>
+<li class="chapter" data-level="2.3" data-path="data.html"><a href="data.html#landsat-derived-data"><i class="fa fa-check"></i><b>2.3</b> Landsat-derived data</a></li>
+<li class="chapter" data-level="2.4" data-path="data.html"><a href="data.html#climate-data"><i class="fa fa-check"></i><b>2.4</b> Climate Data</a></li>
+<li class="chapter" data-level="2.5" data-path="data.html"><a href="data.html#phenology-data"><i class="fa fa-check"></i><b>2.5</b> Phenology Data</a></li>
+<li class="chapter" data-level="2.6" data-path="data.html"><a href="data.html#topographic-data"><i class="fa fa-check"></i><b>2.6</b> Topographic Data</a></li>
+<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html#caribou-data"><i class="fa fa-check"></i><b>2.7</b> Caribou Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="methods.html"><a href="methods.html#tile-system"><i class="fa fa-check"></i><b>3.1</b> Tile System</a></li>
+<li class="chapter" data-level="3.2" data-path="methods.html"><a href="methods.html#sample-filtering-and-selection"><i class="fa fa-check"></i><b>3.2</b> Sample Filtering and Selection</a></li>
+<li class="chapter" data-level="3.3" data-path="methods.html"><a href="methods.html#predictor-variables"><i class="fa fa-check"></i><b>3.3</b> Predictor Variables</a></li>
+<li class="chapter" data-level="3.4" data-path="methods.html"><a href="methods.html#local-random-forest-models"><i class="fa fa-check"></i><b>3.4</b> Local Random Forest Models</a></li>
+<li class="chapter" data-level="3.5" data-path="methods.html"><a href="methods.html#accuracy-assessment"><i class="fa fa-check"></i><b>3.5</b> Accuracy Assessment</a></li>
+<li class="chapter" data-level="3.6" data-path="methods.html"><a href="methods.html#species-at-risk-habitat-analysis"><i class="fa fa-check"></i><b>3.6</b> Species at Risk Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="results.html"><a href="results.html#sample-filtering-and-selection-1"><i class="fa fa-check"></i><b>4.1</b> Sample Filtering and selection</a></li>
+<li class="chapter" data-level="4.2" data-path="results.html"><a href="results.html#relative-importance-of-predictor-variables"><i class="fa fa-check"></i><b>4.2</b> Relative Importance of predictor variables</a></li>
+<li class="chapter" data-level="4.3" data-path="results.html"><a href="results.html#accuracy-assessment-confusion-matrix"><i class="fa fa-check"></i><b>4.3</b> Accuracy Assessment: Confusion Matrix</a></li>
+<li class="chapter" data-level="4.4" data-path="results.html"><a href="results.html#leading-tree-species-map"><i class="fa fa-check"></i><b>4.4</b> Leading Tree Species Map</a></li>
+<li class="chapter" data-level="4.5" data-path="results.html"><a href="results.html#caribou-habitat-analysis"><i class="fa fa-check"></i><b>4.5</b> Caribou Habitat Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="discussion.html"><a href="discussion.html#predictor-variables-1"><i class="fa fa-check"></i><b>5.1</b> Predictor Variables</a></li>
+<li class="chapter" data-level="5.2" data-path="discussion.html"><a href="discussion.html#accuracy"><i class="fa fa-check"></i><b>5.2</b> Accuracy</a></li>
+<li class="chapter" data-level="5.3" data-path="discussion.html"><a href="discussion.html#caribou-analysis"><i class="fa fa-check"></i><b>5.3</b> Caribou Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i><b>6</b> Acknowledgements</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Development of fine spatial resolution tree species information for MPB-impacted ecosystems for Species-at-Risk habitat assessment</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="methods" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Methods<a href="methods.html#methods" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="tile-system" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Tile System<a href="methods.html#tile-system" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A tiling system composed of tiles measuring 150 x 150-km was utilized to partition the provinces and territories of Alberta, British Columbia and the Yukon <span class="citation">(<a href="#ref-hermosilla2016" role="doc-biblioref">Hermosilla et al. 2016</a>, <a href="#ref-hermosilla2022" role="doc-biblioref">2022</a>)</span>. In total 104 number of tiles were partitioned over our area of interest.</p>
+</div>
+<div id="sample-filtering-and-selection" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Sample Filtering and Selection<a href="methods.html#sample-filtering-and-selection" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The framework for tree species modelling followed the methodology outlined in <span class="citation">Hermosilla et al. (<a href="#ref-hermosilla2022" role="doc-biblioref">2022</a>)</span>. To achieve a sample pool in which to draw samples for training and calibration, the raw provincial and territorial forest inventory datasets were filtered by following selection rules when applicable: (i) only polygons covered predominately by treed classes were kept, (ii) polygon area had to be equal to or less than 50 ha to ensure internal homogeneity of features, and (iii) the leading tree species in a polygon had a dominance of greater than or equal to 50%, in order to allow for tree species to be linked to a given spectral signature. The centroid of each of the filtered polygons were extracted to create a training sample pool to derive training and calibration data. To mitigate the large class imbalance between the frequency of dominant and rare species, particularly Limber pine and Whitebark pine, the targeted five-needle pine dataset was added to the training sample pool to supplement the number of these rare classes.</p>
+<p>To normalize the tree species codes across the forest inventory datasets, species codes were converted to the species codes utilized in Canada’s National Forest Inventory (NFI). Samples assigned to general, indeterminate and variant species codes were removed from the sample pool to limit confusion. For example, when a tree species cannot be accurately classified, they are assigned to a determinate (i.e., PICE.SPP for an unknown spruce tree) or indeterminate genus code (i.e., GENC.SPP for unidentified softwood) followed by the suffix SPP. Additionally, samples affected by stand-replacing disturbances as denoted through an intersection analysis with the 2020 C2C disturbance layer were also removed from the sample pool.</p>
+<p>To map alongside key tree species of interest, six other tree species and species groups were included in the modelling design (Table 2). These classes include Douglas-Fir, Other Broadleaf, Other Conifer, Other Spruce, Poplar, Subalpine Fir. The ‘Other Broadleaf’ class was created by grouping samples belonging to species of Alder, Arbutus, Birch and Maple, together. The ‘Other Conifer’ class was created by grouping samples belonging to species of Cedar, Cypress, Fir, Hemlock, Juniper and Larch, together. Lastly, the classes other spruce and poplars (Balsam Poplar, Trembling Aspen) were created.</p>
+<p><strong>Table 2: List of mapped tree species/ species groups codes and names</strong> <img src="images/FRI_tree_species.jpg" /></p>
+<p>The sample selection strategy followed three principles: proportionality, purity and a minimum sampling distance. The number of samples taken from each tree species class is determined by the number of species and their proportion in a given tile <span class="citation">(<a href="#ref-zhu2016" role="doc-biblioref">Zhu et al. 2016</a>)</span>. For samples extracted for a given species class, samples that are purer, percent dominance of species tending towards 100%, are preferentially selected. A minimum sampling distance of 100 m was used in order to reduce the affects of spatial autocorrelation. An exception to this sample selection strategy was made for the rare species classes of limber pine and willow, wherein all available samples from these classes were sampled to ensure that these classes had sufficient representation for training and validation. In addition, the training samples for the rare species classes of limber pine, whitebark pine and willow were duplicated, a common occurrence when dealing with class imbalances <span class="citation">(<a href="#ref-fernández2018" role="doc-biblioref">Fernández et al. 2018</a>)</span>.</p>
+</div>
+<div id="predictor-variables" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Predictor Variables<a href="methods.html#predictor-variables" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Metrics that characterize climate, geography, phenology, topography and spectral information, were used as predictor variables in the random forest classification models. Climate metrics include average minimum and maximum temperatures, and the total annual precipitation from 1991-2020. Geographic coordinates were derived from the centroid of each Landsat pixel <span class="citation">(<a href="#ref-shang2020" role="doc-biblioref">Shang et al. 2020</a>)</span>. Phenophase timing metrics were derived from the MS-LSP product <span class="citation">(<a href="#ref-bolton2020" role="doc-biblioref">Bolton et al. 2020</a>)</span> which includes Onset of greenness increase, Timing of 50% greenness increase, Onset of greenness maximum, Date of cycle peak, Onset of greenness decrease, Timing of 50% greenness decrease and Timing of greenness minimum. Length of growing season was derived by subtracting the Timing of 50% greenness decrease by the Timing of 50% greenness increase. The topographic metrics of elevation, slope, topographic solar radiation index (TSRI; <span class="citation">(<a href="#ref-roberts1989" role="doc-biblioref">Roberts and Cooper 1989</a>)</span>), and topographic wetness index (TWI; <span class="citation">(<a href="#ref-beven1979" role="doc-biblioref">Beven and Kirkby 1979</a>)</span>) were derived from the GDEM v3 <span class="citation">(<a href="#ref-abrams2020" role="doc-biblioref">Abrams, Crippen, and Fujisada 2020</a>)</span>. Lastly, from the 2020 Landsat image composite, surface reflectance values associated with each of the six spectral bands, and a suite of spectral and vegetation indices were derived. The indices derived include the Enhanced Vegetation Index (EVI; <span class="citation">(<a href="#ref-huete2002" role="doc-biblioref">Huete et al. 2002</a>)</span>), Normalized Burn Ratio (NBR; <span class="citation">(<a href="#ref-key2006" role="doc-biblioref">Key and Benson 2006</a>)</span>), Normalized Difference Vegetation Index (NDVI; <span class="citation">(<a href="#ref-tucker1979" role="doc-biblioref">Tucker 1979</a>)</span>), Tasseled Cap Angle (TCA; <span class="citation">(<a href="#ref-powell2010" role="doc-biblioref">Powell et al. 2010</a>)</span>), Tasseled Cap Brightness (TCB; <span class="citation">(<a href="#ref-crist1985" role="doc-biblioref">Crist 1985</a>)</span>), Tasseled Cap Greenness (TCG; <span class="citation">(<a href="#ref-crist1985" role="doc-biblioref">Crist 1985</a>)</span>) and Tasseled Cap Wetness (TCW; <span class="citation">(<a href="#ref-crist1985" role="doc-biblioref">Crist 1985</a>)</span>).</p>
+<p><strong>Table 3: Predictor variables used in the random forest models</strong> <img src="images/predictor_variables.jpg" /></p>
+</div>
+<div id="local-random-forest-models" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Local Random Forest Models<a href="methods.html#local-random-forest-models" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tree species classification models were produced for each tile using local training samples and the Random Forests classifier <span class="citation">(<a href="#ref-breiman2001" role="doc-biblioref">Breiman 2001</a>)</span>. Random Forests is a commonly applied machine learning algorithm in modelling tree species distribution and classification <span class="citation">(<a href="#ref-hemmerling2021" role="doc-biblioref">Hemmerling, Pflugmacher, and Hostert 2021</a>; <a href="#ref-hermosilla2022" role="doc-biblioref">Hermosilla et al. 2022</a>; <a href="#ref-immitzer2012" role="doc-biblioref">Immitzer, Atzberger, and Koukal 2012</a>; <a href="#ref-shang2020" role="doc-biblioref">Shang et al. 2020</a>)</span> as a result of its powerful predictive performance <span class="citation">(<a href="#ref-elith2008" role="doc-biblioref">Elith, Leathwick, and Hastie 2008</a>)</span>. Random Forests is an ensemble decision tree classifier that uses randomly selected subsets of training data and predictor variables for each tree <span class="citation">(<a href="#ref-breiman2001" role="doc-biblioref">Breiman 2001</a>)</span>. The output class for a pixel during classification, is obtained by majority vote from the outputs of a large number of individual decision trees <span class="citation">(<a href="#ref-breiman2001" role="doc-biblioref">Breiman 2001</a>)</span>. To supplement the Random Forests prediction, the algorithm produces an internal unbiased estimate of the generalization error, or the out-of-bag (OOB) error, and a measure of input feature importance, the Mean Decrease in Accuracy (MDA) <span class="citation">(<a href="#ref-han2016" role="doc-biblioref">Han, Guo, and Yu 2016</a>)</span>. To parametrize each Random Forests model in the study, the default values where selected wherein the parameter <em>mtry</em> was set to the square root of the total number of predictors (31), and the <em>ntree</em> parameter to 500. The number of tiles to produce random forest models was reduced from 104 to 89 tiles. Only tiles, with greater than or equal to 10% of its samples belonging to either a spruce or pine species – as these are considered important species for the Mountain Pine Beetle and key caribou habitat.</p>
+<p>To ensure the continuity of individual tree species distributions across tiles, inverse distance weighted neighbourhood sampling over a 3 x 3 kernel was executed. Sampling over the 3 x 3 kernel, resulted in the random forest model for a central tile of interest to be constructed using its own samples (as selected in section 3.2) supplemented by samples from its surrounding neighbours. After this weighted approach, the models had 70% of its training samples belonging to the central tile of interest, and 30% from the rim of the 3 x 3 kernel. In instances, where tiles had no availability of training samples – these tiles were provided with 1/N (N being number of adjacent tiles) of the samples from their N adjacent tile neighbors.</p>
+</div>
+<div id="accuracy-assessment" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Accuracy Assessment<a href="methods.html#accuracy-assessment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>From samples selected in section 3.2, the samples per tile were split 70-30 for training and validation, respectively. In total 64,103 validation points were available.To evaluate the classification accuracy for the tree species map, a confusion matrix was produced using the validation points as reference information. From this confusion matrix overall accuracy, user’s and producer’s accuracy were derived. Regional and tile specific confusion matrices were created.</p>
+</div>
+<div id="species-at-risk-habitat-analysis" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Species at Risk Habitat Analysis<a href="methods.html#species-at-risk-habitat-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The NTEMS canopy cover layer, which ranges in value from 0% (indicating no canopy) to 100% (indicating completely covered canopy) was reclassified to reflect canopy openness, an important factor in caribou habitat selection <span class="citation">(<a href="#ref-cichowski2022" role="doc-biblioref">Cichowski et al. 2022</a>; <a href="#ref-rapai2017" role="doc-biblioref">Rapai, McColl, and McMullin 2017</a>; <a href="#ref-rudolph2019" role="doc-biblioref">Rudolph, MacNearney, and Finnegan 2019</a>)</span><strong>.</strong> The relationship between canopy cover and canopy openness as defined in the “The Canadian National Vegetation Classification: Principles, Methods and Status” report from 2019 <span class="citation">(<a href="#ref-baldwin2019" role="doc-biblioref">Baldwin et al. 2019</a>)</span> follows that a canopy is considered sparse when canopy cover is less than 25%, open between 25-40% cover , moderately closed at 41-60% cover, and closed at canopy cover greater than 60%. Additionally, the leading tree species map was reclassified into the following 6 leading species/ species groups: Black Spruce, White Spruce, Other Spruce, Pine, Coniferous and Broadleaf.</p>
+<p>Following this reclassification, the canopy openness and leading tree species layer were combined to form a map with 18 classes (Table 4). The combined map of canopy openness and leading species produced was intersected with caribou herd range data in order to understand the current conditions of key caribou habitat. When differing data delineating the same caribou herd ranges were duplicated across provincial and/or territorial datasets, the range with the most recent observation date was kept while the other was omitted.</p>
+<p><strong>Table 4: List of 18 combined leading species and canopy openness classes created for caribou analysis</strong></p>
+<p><img src="images/canopy_tree_combined.jpg" /></p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-abrams2020" class="csl-entry">
+Abrams, Michael, Robert Crippen, and Hiroyuki Fujisada. 2020. <span>“ASTER Global Digital Elevation Model (GDEM) and ASTER Global Water Body Dataset (ASTWBD).”</span> <em>Remote Sensing</em> 12 (7). <a href="https://doi.org/10.3390/rs12071156">https://doi.org/10.3390/rs12071156</a>.
+</div>
+<div id="ref-baldwin2019" class="csl-entry">
+Baldwin, Kenneth A., K. Chapman, D. Meidinger, P. Uhlig, L. Allen, S. Basquill, D. Faber-Langendoen, N. Flynn, C. Kennedy, and W. Mackenzie. 2019. <em>The Canadian National Vegetation Classification: Principles, Methods and Status</em>. Natural Resources Canada, Canadian Forest Service, Great Lakes Forestry Centre.
+</div>
+<div id="ref-beven1979" class="csl-entry">
+Beven, K. J., and M. J. Kirkby. 1979. <span>“A Physically Based, Variable Contributing Area Model of Basin Hydrology / Un Modèle à Base Physique de Zone d’appel Variable de l’hydrologie Du Bassin Versant.”</span> <em>Hydrological Sciences Bulletin</em> 24 (1): 43–69. <a href="https://doi.org/10.1080/02626667909491834">https://doi.org/10.1080/02626667909491834</a>.
+</div>
+<div id="ref-bolton2020" class="csl-entry">
+Bolton, Douglas K., Josh M. Gray, Eli K. Melaas, Minkyu Moon, Lars Eklundh, and Mark A. Friedl. 2020. <span>“Continental-Scale Land Surface Phenology from Harmonized Landsat 8 and Sentinel-2 Imagery.”</span> <em>Remote Sensing of Environment</em> 240: 111685. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2020.111685">https://doi.org/10.1016/j.rse.2020.111685</a>.
+</div>
+<div id="ref-breiman2001" class="csl-entry">
+Breiman, Leo. 2001. <span>“Random Forests.”</span> <em>Machine Learning</em> 45 (1): 5–32. <a href="https://doi.org/10.1023/A:1010933404324">https://doi.org/10.1023/A:1010933404324</a>.
+</div>
+<div id="ref-cichowski2022" class="csl-entry">
+Cichowski, Deborah, Glenn D. Sutherland, R. Scott McNay, and Randy Sulyma. 2022. <span>“Direct and Indirect Effects of Habitat Disturbances on Caribou Terrestrial Forage Lichens in Montane Forests of British Columbia.”</span> <em>Forests 2022, Vol. 13, Page 251</em> 13 (2): 251. <a href="https://doi.org/10.3390/F13020251">https://doi.org/10.3390/F13020251</a>.
+</div>
+<div id="ref-crist1985" class="csl-entry">
+Crist, Eric P. 1985. <span>“A TM Tasseled Cap Equivalent Transformation for Reflectance Factor Data.”</span> <em>Remote Sensing of Environment</em> 17 (3): 301–6. https://doi.org/<a href="https://doi.org/10.1016/0034-4257(85)90102-6">https://doi.org/10.1016/0034-4257(85)90102-6</a>.
+</div>
+<div id="ref-elith2008" class="csl-entry">
+Elith, J., J. R. Leathwick, and T. Hastie. 2008. <span>“A Working Guide to Boosted Regression Trees.”</span> <em>Journal of Animal Ecology</em> 77 (4): 802–13. https://doi.org/<a href="https://doi.org/10.1111/j.1365-2656.2008.01390.x">https://doi.org/10.1111/j.1365-2656.2008.01390.x</a>.
+</div>
+<div id="ref-fernández2018" class="csl-entry">
+Fernández, Alberto, Salvador Garcia, Francisco Herrera, and Nitesh V. Chawla. 2018. <span>“SMOTE for Learning from Imbalanced Data: Progress and Challenges, Marking the 15-Year Anniversary.”</span> <em>Journal of Artificial Intelligence Research</em> 61: 863–905.
+</div>
+<div id="ref-han2016" class="csl-entry">
+Han, Hong, Xiaoling Guo, and Hua Yu. 2016. <span>“Variable Selection Using Mean Decrease Accuracy and Mean Decrease Gini Based on Random Forest.”</span> In <em>2016 7th IEEE International Conference on Software Engineering and Service Science (ICSESS)</em>, 219–24. <a href="https://doi.org/10.1109/ICSESS.2016.7883053">https://doi.org/10.1109/ICSESS.2016.7883053</a>.
+</div>
+<div id="ref-hemmerling2021" class="csl-entry">
+Hemmerling, Jan, Dirk Pflugmacher, and Patrick Hostert. 2021. <span>“Mapping Temperate Forest Tree Species Using Dense Sentinel-2 Time Series.”</span> <em>Remote Sensing of Environment</em> 267: 112743. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2021.112743">https://doi.org/10.1016/j.rse.2021.112743</a>.
+</div>
+<div id="ref-hermosilla2022" class="csl-entry">
+Hermosilla, Txomin, Alex Bastyr, Nicholas C. Coops, Joanne C. White, and Michael A. Wulder. 2022. <span>“Mapping the Presence and Distribution of Tree Species in Canada’s Forested Ecosystems.”</span> <em>Remote Sensing of Environment</em> 282: 113276.
+</div>
+<div id="ref-hermosilla2016" class="csl-entry">
+Hermosilla, Txomin, Michael A. Wulder, Joanne C. White, Nicholas C. Coops, Geordie W. Hobart, and Lorraine B. Campbell. 2016. <span>“Mass Data Processing of Time Series Landsat Imagery: Pixels to Data Products for Forest Monitoring.”</span> <em>International Journal of Digital Earth</em> 9 (11): 1035–54. <a href="https://doi.org/10.1080/17538947.2016.1187673">https://doi.org/10.1080/17538947.2016.1187673</a>.
+</div>
+<div id="ref-huete2002" class="csl-entry">
+Huete, A., K. Didan, T. Miura, E. P. Rodriguez, X. Gao, and L. G. Ferreira. 2002. <span>“Overview of the Radiometric and Biophysical Performance of the MODIS Vegetation Indices.”</span> <em>Remote Sensing of Environment</em> 83 (1): 195–213. https://doi.org/<a href="https://doi.org/10.1016/S0034-4257(02)00096-2">https://doi.org/10.1016/S0034-4257(02)00096-2</a>.
+</div>
+<div id="ref-immitzer2012" class="csl-entry">
+Immitzer, Markus, Clement Atzberger, and Tatjana Koukal. 2012. <span>“Tree Species Classification with Random Forest Using Very High Spatial Resolution 8-Band WorldView-2 Satellite Data.”</span> <em>Remote Sensing</em> 4 (9): 2661–93. <a href="https://doi.org/10.3390/rs4092661">https://doi.org/10.3390/rs4092661</a>.
+</div>
+<div id="ref-key2006" class="csl-entry">
+Key, Carl H., and Nathan C. Benson. 2006. <span>“Landscape Assessment (LA): Sampling and Analysis Methods.”</span> <em>USDA 963 Forest Service Gen. Tech. Rep. RMRS-GTR-164-CD. Routledge.</em>
+</div>
+<div id="ref-powell2010" class="csl-entry">
+Powell, Scott L., Warren B. Cohen, Sean P. Healey, Robert E. Kennedy, Gretchen G. Moisen, Kenneth B. Pierce, and Janet L. Ohmann. 2010. <span>“Quantification of Live Aboveground Forest Biomass Dynamics with Landsat Time-Series and Field Inventory Data: A Comparison of Empirical Modeling Approaches.”</span> <em>Remote Sensing of Environment</em> 114 (5): 1053–68. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2009.12.018">https://doi.org/10.1016/j.rse.2009.12.018</a>.
+</div>
+<div id="ref-rapai2017" class="csl-entry">
+Rapai, Sean B., Duncan McColl, and Richard Troy McMullin. 2017. <span>“Examining the Role of Terrestrial Lichen Transplants in Restoring Woodland Caribou Winter Habitat.”</span> <em>Https://Doi.org/10.5558/Tfc2017-029</em> 93 (3): 204–12. <a href="https://doi.org/10.5558/TFC2017-029">https://doi.org/10.5558/TFC2017-029</a>.
+</div>
+<div id="ref-roberts1989" class="csl-entry">
+Roberts, David W., and Stephen V. Cooper. 1989. <span>“Concepts and Techniques of Vegetation Mapping.”</span> <em>Land Classifications Based on Vegetation: Applications for Resource Management</em>, 90–96.
+</div>
+<div id="ref-rudolph2019" class="csl-entry">
+Rudolph, Tyler D., Doug MacNearney, and Laura Finnegan. 2019. <span>“Lost in Translation? Insights into Caribou Habitat Selection from Forest Inventory Data.”</span> <em>Facets</em> 2019 (4): 531–50. <a href="https://doi.org/10.1139/FACETS-2018-0050/SUPPL_FILE/FACETS-2018-0050_SUPPLEMENT1.DOCX">https://doi.org/10.1139/FACETS-2018-0050/SUPPL_FILE/FACETS-2018-0050_SUPPLEMENT1.DOCX</a>.
+</div>
+<div id="ref-shang2020" class="csl-entry">
+Shang, Chen, Nicholas C. Coops, Michael A. Wulder, Joanne C. White, and Txomin Hermosilla. 2020. <span>“Update and Spatial Extension of Strategic Forest Inventories Using Time Series Remote Sensing and Modeling.”</span> <em>International Journal of Applied Earth Observation and Geoinformation</em> 84: 101956. https://doi.org/<a href="https://doi.org/10.1016/j.jag.2019.101956">https://doi.org/10.1016/j.jag.2019.101956</a>.
+</div>
+<div id="ref-tucker1979" class="csl-entry">
+Tucker, Compton J. 1979. <span>“Red and Photographic Infrared Linear Combinations for Monitoring Vegetation.”</span> <em>Remote Sensing of Environment</em> 8 (2): 127–50. https://doi.org/<a href="https://doi.org/10.1016/0034-4257(79)90013-0">https://doi.org/10.1016/0034-4257(79)90013-0</a>.
+</div>
+<div id="ref-zhu2016" class="csl-entry">
+Zhu, Zhe, Alisa L. Gallant, Curtis E. Woodcock, Bruce Pengra, Pontus Olofsson, Thomas R. Loveland, Suming Jin, Devendra Dahal, Limin Yang, and Roger F. Auch. 2016. <span>“Optimizing Selection of Training and Auxiliary Data for Operational Land Cover Classification for the LCMAP Initiative.”</span> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em> 122: 206–21. https://doi.org/<a href="https://doi.org/10.1016/j.isprsjprs.2016.11.004">https://doi.org/10.1016/j.isprsjprs.2016.11.004</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="results.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
